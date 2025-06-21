@@ -408,37 +408,36 @@ const testimonials = [
     <p className="mt-1 text-sm">– JANE A</p>
   </div>
 </div>
-<div className="flex justify-center items-center mt-12 gap-4">
-  <div className="flex justify-center items-center mt-12 gap-6">
+<div className="flex flex-col md:flex-row justify-center items-center mt-12 gap-6 px-4">
   {/* BEFORE Label */}
   <div className="flex-shrink-0">
-    <p className="rotate-[-90deg] tracking-[0.5em] text-2xl font-bold text-gray-400">
+    <p className="md:rotate-[-90deg] tracking-[0.5em] text-xl md:text-2xl font-bold text-gray-400 mb-4 md:mb-0">
       BEFORE
     </p>
   </div>
 
-  {/* Images - no gap */}
-  <div className="flex">
+  {/* Images */}
+  <div className="flex flex-col md:flex-row">
     <img
       src="/before.png"
       alt="Before"
-      className="w-64 h-60 object-cover rounded-l shadow-lg"
+      className="w-full md:w-64 h-60 object-cover rounded-t md:rounded-l md:rounded-tr-none shadow-lg"
     />
     <img
       src="/after.png"
       alt="After"
-      className="w-64 h-60 object-cover rounded-r shadow-lg"
+      className="w-full md:w-64 h-60 object-cover rounded-b md:rounded-r md:rounded-bl-none shadow-lg"
     />
   </div>
 
   {/* AFTER Label */}
   <div className="flex-shrink-0">
-    <p className="rotate-[-90deg] tracking-[0.5em] text-2xl font-bold text-gray-400">
+    <p className="md:rotate-[-90deg] tracking-[0.5em] text-xl md:text-2xl font-bold text-gray-400 mt-4 md:mt-0">
       AFTER
     </p>
   </div>
 </div>
-</div>
+
      
 </div>
       {/* Secon Testimonial Quote */}
