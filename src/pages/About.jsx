@@ -130,7 +130,7 @@ function ShoppingCart({ isActive = true }) {
      
 
      {/* Hero Section */}
-         <div className=" items-center  mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-2 gap-12 font-sans text-gray-800">
+         <div className=" items-center  mx-auto px-4 py-5 grid grid-cols-1 lg:grid-cols-2 gap-12 font-sans text-gray-800">
 
       {/* Image Section */}
       <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-8">
