@@ -42,7 +42,7 @@ function ShoppingCart({ isActive = true }) {
 }
 
   return (
-    <div className=" mx-auto items-center justify-center py-5 font-sans">
+    <div className="font-sans">
       {/* Navigation */}
        
       <nav className="flex justify-between items-center px-6 py-6 shadow-md bg-white fixed w-full top-0 z-50">
@@ -130,7 +130,7 @@ function ShoppingCart({ isActive = true }) {
      
 
      {/* Hero Section */}
-         <div className="max-w-7xl mx-auto px-4 py-20 grid grid-cols-1 lg:grid-cols-3 gap-12 font-sans text-gray-800">
+         <div className="max-w-9xl items-center justify-center mx-auto px-4 py-20 grid grid-cols-1 lg:grid-cols-3 gap-12 font-sans text-gray-800">
 
       {/* Image Section */}
       <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-8">
