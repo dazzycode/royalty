@@ -42,7 +42,7 @@ function ShoppingCart({ isActive = true }) {
 }
 
   return (
-    <div className=" mx-5 py-5 font-sans">
+    <div className=" mx-auto items-center py-5 font-sans">
       {/* Navigation */}
        
       <nav className="flex justify-between items-center px-6 py-6 shadow-md bg-white fixed w-full top-0 z-50">
