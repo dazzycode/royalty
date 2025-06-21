@@ -141,7 +141,7 @@ function ShoppingCart({ isActive = true }) {
              <img
                src="/trade.png"
                alt="hero"
-               className="w-full h-[60vh] object-cover"
+               className="w-full h-[60%] md:h-[60vh] object-cover"
              />
              <div className="absolute top-0 pt-40 left-0 w-full h-full flex flex-col justify-center items-left text-left text-white px-4">
                <h1 className="text-3xl md:text-5xl font-bold mb-4">Sustainable Designs,<br></br> Tailored to Your Brand.

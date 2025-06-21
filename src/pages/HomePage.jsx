@@ -215,7 +215,7 @@ const testimonials = [
         <img
           src="/homeimg.png"
           alt="hero"
-          className="w-full h-[90vh] object-cover"
+          className="w-full h-[100%] md:h-[90vh] object-cover"
         />
         <div className="absolute top-0 md:pt-40 left-0 w-full h-full flex flex-col justify-center items-center text-center text-white px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -249,7 +249,7 @@ const testimonials = [
         <div className="md:flex justify-center items-center gap-5">
             <section className="max-w-3xl  px-6">
 
-      <h2 className="text-4xl font-bold text-[#000000] text-left mb-8">Why choose Us?</h2>
+      <h2 className="text-4xl md:text-left font-bold text-[#000000] text-center mb-8">Why choose Us?</h2>
 
       <div className="space-y-6">
         {/* Item 1 */}
@@ -287,9 +287,9 @@ const testimonials = [
       </div>
 
       {/* Call to Action */}
-      <div className="mt-8 text-sm font-semibold text-[#004E5B]  text-left cursor-pointer">
+    <Link to="/explore">  <div className="mt-8 text-sm font-semibold text-[#004E5B]  text-left cursor-pointer">
         EXPLORE OUR DESIGNS
-      </div>
+      </div></Link>
     </section>
 
           <img

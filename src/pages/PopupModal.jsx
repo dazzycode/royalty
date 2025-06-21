@@ -28,7 +28,7 @@ const PopupModal = ({ show, onClose }) => {
     overflow-hidden
 
     /* Mobile styles */
-    max-h-[100vh] w-full mx-2 my-20 rounded-lg overflow-y-auto
+    max-h-[100%] w-full mx-2 my-20 rounded-lg overflow-y-auto
 
     /* Desktop styles */
     md:rounded-lg md:max-w-4xl md:h-[70vh] md:mt-20 md:max-h-[calc(100vh-5rem)]

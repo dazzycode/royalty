@@ -147,9 +147,9 @@ function ShoppingCart({ isActive = true }) {
         {/* Form Section */}
         <div className="w-full md:w-1/2">
           <h1 className="text-2xl md:text-3xl font-bold mb-4 text-gray-800">
-            Empower Yourself — Master the Art of<br />
-            Sustainable Craftsmanship with<br />
-            Royalty Recycling Hub!
+            Empower Yourself — Master<br></br> the Art of
+            Sustainable <br></br>Craftsmanship with
+            Royalty <br></br>Recycling Hub!
           </h1>
           <p className="text-gray-600 text-justify mb-6 max-w-4xl">
             Join our hands-on training program and master the art of transforming <br />

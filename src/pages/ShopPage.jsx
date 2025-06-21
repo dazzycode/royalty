@@ -133,7 +133,7 @@ function ShoppingCart({ isActive = true }) {
          
       {/* Hero Section */}
       <div className="relative pt-20">
-        <img src="/shop.png" alt="hero" className="w-full h-[50vh] object-cover" />
+        <img src="/shop.png" alt="hero" className="w-full h-[50%] md:h-[50vh] object-cover" />
       </div>
 <section className="py-20 px-6 md:px-20 bg-white">
   {/* Heading */}
