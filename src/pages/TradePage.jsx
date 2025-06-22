@@ -53,7 +53,7 @@ function ShoppingCart({ isActive = true }) {
       {/* Navigation */}
       <nav className="flex justify-between items-center px-6 py-6 shadow-md bg-white fixed w-full top-0 z-50">
                  <Link to="/">
-                 <img src="https://drive.google.com/uc?export=view&id=1AbCDefGhijkLMNOPqrstuVWXYZ" alt="Petabyte Esports" className="h-10" />
+                           <img src="/logo.png" alt="Royalty Recycling" className="h-10" />
 
                  </Link>
            
