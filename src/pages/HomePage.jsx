@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaWhatsapp, FaShoppingCart } from 'react-icons/fa';
+import { FaWhatsapp, FaShoppingCart, FaLinkedin, FaPinterest, FaSnapchat } from 'react-icons/fa';
 import { FiChevronDown, FiChevronUp, FiMenu, FiX  } from 'react-icons/fi';
 import ServiceModal from './Modal';
 import { useNavigate } from 'react-router-dom';
@@ -16,7 +16,6 @@ import PopupModal from './PopupModal';
 import {
   FaFacebook,
   FaInstagram,
-  FaXTwitter,
 } from "react-icons/fa6";
 function ShoppingCart({ isActive = true }) {
   return (
@@ -128,8 +127,9 @@ const testimonials = [
     
     <nav className="flex justify-between items-center px-6 py-6 shadow-md bg-white fixed w-full top-0 z-50">
       <Link to="/">
-        <img src="/logo.png" alt="Petabyte Esports" className="h-10" />
-      </Link>
+                                <img src="https://drive.google.com/uc?export=view&id=1AbCDefGhijkLMNOPqrstuVWXYZ" alt="Petabyte Esports" className="h-10" />
+               
+                                </Link>
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-6 text-lg font-medium items-center">
@@ -215,7 +215,7 @@ const testimonials = [
         <img
           src="/homeimg.png"
           alt="hero"
-          className="w-full h-[100%] md:h-[90vh] object-cover"
+          className="w-full h-[150%] md:h-[90vh] object-cover"
         />
         <div className="absolute top-0 md:pt-40 left-0 w-full h-full flex flex-col justify-center items-center text-center text-white px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -230,9 +230,10 @@ const testimonials = [
 
         {/* Floating Icons */}
         <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
-          <a href="https://wa.me/123456789" target="_blank" rel="noreferrer">
-            <FaWhatsapp className="text-green-500 text-5xl bg-green-800 rounded-full shadow-lg p-2" />
-          </a>
+         <a href="https://wa.me/2348121091801" target="_blank" rel="noreferrer">
+  <FaWhatsapp className="text-green-500 text-5xl bg-green-800 rounded-full shadow-lg p-2" />
+</a>
+
          <Link to="/cart"><FaShoppingCart className="text-gray-800 text-5xl bg-white rounded-full shadow-lg p-2 cursor-pointer" /></Link>
         </div>
       </section>
@@ -257,8 +258,8 @@ const testimonials = [
           <img src="/icon1.png" alt="Sustainably Sourced" className="w-10 h-10" />
           <div className='text-justify'> 
             <h3 className="font-bold text-1xl text-[#013341]">SUSTAINABLY SOURCED MATERIALS</h3>
-            <p className="text-sm text-[#666666]">
-              Made from reclaimed wood, bamboo,<br></br> and upcycled materials.
+            <p className="text-xs md:text-sm  text-justify text-[#666666]">
+              Made from reclaimed wood, bamboo, and upcycled materials.
             </p>
           </div>
         </div>
@@ -268,8 +269,8 @@ const testimonials = [
           <img src="/icon2.png" alt="Premium Craftsmanship" className="w-10 h-10" />
           <div className='text-justify'> 
             <h3 className="font-bold text-1xl text-[#013341] ">PREMIUM CRAFTSMANSHIP</h3>
-            <p className="text-sm text-[#666666] ">
-              Designed for durability and comfort without<br></br> compromising on aesthetics.
+            <p className="text-xs text-justify md:text-sm text-[#666666] ">
+              Designed for durability and comfort without compromising on aesthetics.
             </p>
           </div>
         </div>
@@ -279,7 +280,7 @@ const testimonials = [
           <img src="/icon3.png" alt="Affordable Luxury" className="w-10 h-10" />
           <div className='text-justify'> 
             <h3 className="font-bold  text-1xl text-[#013341]">AFFORDABLE LUXURY</h3>
-            <p className="text-sm text-[#666666] ">
+            <p className="text-xs md:text-sm text-justify text-[#666666] ">
               High-end designs at prices that don't cost the Earth.
             </p>
           </div>
@@ -542,34 +543,37 @@ const testimonials = [
           <h4 className="font-semibold mb-2">CONTACT US</h4>
           <p>Got any questions, send us a message</p>
           <p className="mt-4">07061714506</p>
-          <p>royaltyrecyclinghub@gmail.com</p>
+           <a href="mailto:royaltyrecyclinghub@gmail.com">
+ <p>royaltyrecyclinghub@gmail.com</p></a>
             {/* Social icons */}
   <div className="flex gap-4 mt-4">
-    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-      <FaFacebook className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+     <a href="https://www.facebook.com/share/1HjT7HANDG/" target="_blank" rel="noopener noreferrer">
+                    <FaFacebook className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+                  </a>
+                  <a href="https://www.instagram.com/royalty_ecofurnishings?igsh=OGxxbnB3dzc1dTF2" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+                  </a>
+                  <a href="https://www.linkedin.com/posts/royalty-recycling-hub_wearelasu-sustainabilityinaction-circulareconomy-activity-7341504216324042752-Exx_?utm_source=share&utm_medium=member_android&rcm=ACoAAB8SayMB8Jk2zk22r9kpOSugsRVCI2b0wmc" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+                  </a>
+                   <a href="https://pin.it/5cMbLjOYn" target="_blank" rel="noopener noreferrer">
+                    <FaPinterest className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+                  </a>
+                   <a href="https://www.snapchat.com/add/eco-furnishings?share_id=hDcqEzn68mc&locale=en-GB" target="_blank" rel="noopener noreferrer">
+                    <FaSnapchat className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+                  </a>
+                </div>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Pages</h4>
+                <ul className="space-y-1">
+                <Link to="/"> <li>Home</li></Link>
+                             <Link to="/shop"> <li>Shop</li></Link>
+                             <Link to="/about"> <li>About us</li></Link>
+                              <Link to="/blog"> <li>Blog</li></Link>
+                              <a href="mailto:royaltyrecyclinghub@gmail.com">
+      <li>Contact us</li>
     </a>
-    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-      <FaInstagram className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
-    </a>
-    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-      <FaXTwitter  className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
-    </a>
-    
-  </div>
-</div>
-
-
-      
-
-        {/* Pages */}
-        <div>
-          <h4 className="font-semibold mb-2">Pages</h4>
-          <ul className="space-y-1">
-           <Link to="/"> <li>Home</li></Link>
-                        <Link to="/shop"> <li>Shop</li></Link>
-                        <Link to="/about"> <li>About us</li></Link>
-                         <Link to="/blog"> <li>Blog</li></Link>
-                                      <Link to=""> <li>Contact us</li></Link>
           </ul>
         </div>
       </div>

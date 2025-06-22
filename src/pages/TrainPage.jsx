@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaShoppingCart } from 'react-icons/fa';
+import { FaLinkedin, FaPinterest, FaShoppingCart, FaSnapchat } from 'react-icons/fa';
 import { FiChevronDown, FiChevronUp, FiMenu, FiX } from 'react-icons/fi';
 import ServiceModal from './Modal';
 
 import {
   FaFacebook,
   FaInstagram,
-  FaXTwitter,
 } from "react-icons/fa6";
 
 const TrainPage = () => {
@@ -54,9 +53,10 @@ function ShoppingCart({ isActive = true }) {
 
       {/* Navigation */}
       <nav className="flex justify-between items-center px-6 py-6 shadow-md bg-white fixed w-full top-0 z-50">
-               <Link to="/">
-                 <img src="/logo.png" alt="Petabyte Esports" className="h-10" />
-               </Link>
+                 <Link to="/">
+                                         <img src="https://drive.google.com/uc?export=view&id=1AbCDefGhijkLMNOPqrstuVWXYZ" alt="Petabyte Esports" className="h-10" />
+                        
+                                         </Link>
          
                {/* Desktop Menu */}
                <ul className="hidden md:flex gap-6 text-lg font-medium items-center">
@@ -209,7 +209,7 @@ function ShoppingCart({ isActive = true }) {
 
             <div>
               <label htmlFor="message" className="block mb-1 font-medium text-gray-700">
-                Why did you participate?
+                Why did you want to participate?
               </label>
               <textarea
                 id="message"
@@ -226,7 +226,7 @@ function ShoppingCart({ isActive = true }) {
             <div className="flex justify-end">
               <button
                 type="submit"
-                className="bg-[#013341] text-white py-2 px-6 rounded-full hover:bg-blue-700 transition"
+                className="bg-[#013341] text-white py-2 px-6 rounded-full hover:bg-gray-400 transition"
               >
                 Submit Form
               </button>
@@ -276,27 +276,37 @@ function ShoppingCart({ isActive = true }) {
             <h4 className="font-semibold mb-2">CONTACT US</h4>
             <p>Got any questions, send us a message</p>
             <p className="mt-4">07061714506</p>
-            <p>royaltyrecyclinghub@gmail.com</p>
+             <a href="mailto:royaltyrecyclinghub@gmail.com">
+ <p>royaltyrecyclinghub@gmail.com</p></a>
             <div className="flex gap-4 mt-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                <FaFacebook className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                <FaInstagram className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <FaXTwitter className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
-              </a>
-            </div>
-          </div>
-          <div>
-            <h4 className="font-semibold mb-2">Pages</h4>
-            <ul className="space-y-1">
-             <Link to="/"> <li>Home</li></Link>
-                          <Link to="/shop"> <li>Shop</li></Link>
-                          <Link to="/about"> <li>About us</li></Link>
-                           <Link to="/blog"> <li>Blog</li></Link>
-                                        <Link to=""> <li>Contact us</li></Link>
+              <a href="https://www.facebook.com/share/1HjT7HANDG/" target="_blank" rel="noopener noreferrer">
+                             <FaFacebook className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+                           </a>
+                           <a href="https://www.instagram.com/royalty_ecofurnishings?igsh=OGxxbnB3dzc1dTF2" target="_blank" rel="noopener noreferrer">
+                             <FaInstagram className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+                           </a>
+                           <a href="https://www.linkedin.com/posts/royalty-recycling-hub_wearelasu-sustainabilityinaction-circulareconomy-activity-7341504216324042752-Exx_?utm_source=share&utm_medium=member_android&rcm=ACoAAB8SayMB8Jk2zk22r9kpOSugsRVCI2b0wmc" target="_blank" rel="noopener noreferrer">
+                             <FaLinkedin className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+                           </a>
+                            <a href="https://pin.it/5cMbLjOYn" target="_blank" rel="noopener noreferrer">
+                             <FaPinterest className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+                           </a>
+                            <a href="https://www.snapchat.com/add/eco-furnishings?share_id=hDcqEzn68mc&locale=en-GB" target="_blank" rel="noopener noreferrer">
+                             <FaSnapchat className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+                           </a>
+                         </div>
+                       </div>
+                       <div>
+                         <h4 className="font-semibold mb-2">Pages</h4>
+                         <ul className="space-y-1">
+                         <Link to="/"> <li>Home</li></Link>
+                                      <Link to="/shop"> <li>Shop</li></Link>
+                                      <Link to="/about"> <li>About us</li></Link>
+                                       <Link to="/blog"> <li>Blog</li></Link>
+                                       <a href="mailto:royaltyrecyclinghub@gmail.com">
+               <li>Contact us</li>
+             </a>
+                      
             </ul>
           </div>
         </div>

@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import {FaWhatsapp, FaShoppingCart } from 'react-icons/fa';
+import {FaWhatsapp, FaShoppingCart, FaLinkedin, FaPinterest, FaSnapchat } from 'react-icons/fa';
 import { FiChevronDown, FiChevronUp, FiMenu, FiX  } from 'react-icons/fi';
 import ServiceModal from './Modal';
 import { ShieldCheckIcon } from '@heroicons/react/24/solid'
 
 import {
-  FaFacebook,
-  FaInstagram,
-  FaXTwitter,
+  FaFacebook, FaInstagram
 } from "react-icons/fa6";
 
 const TradePage = () => {
@@ -55,7 +53,8 @@ function ShoppingCart({ isActive = true }) {
       {/* Navigation */}
       <nav className="flex justify-between items-center px-6 py-6 shadow-md bg-white fixed w-full top-0 z-50">
                  <Link to="/">
-                   <img src="/logo.png" alt="Petabyte Esports" className="h-10" />
+                 <img src="https://drive.google.com/uc?export=view&id=1AbCDefGhijkLMNOPqrstuVWXYZ" alt="Petabyte Esports" className="h-10" />
+
                  </Link>
            
                  {/* Desktop Menu */}
@@ -141,7 +140,7 @@ function ShoppingCart({ isActive = true }) {
              <img
                src="/trade.png"
                alt="hero"
-               className="w-full h-[60%] md:h-[60vh] object-cover"
+               className="w-full h-[150%] md:h-[60vh] object-cover"
              />
              <div className="absolute top-0 pt-40 left-0 w-full h-full flex flex-col justify-center items-left text-left text-white px-4">
                <h1 className="text-3xl md:text-5xl font-bold mb-4">Sustainable Designs,<br></br> Tailored to Your Brand.
@@ -158,9 +157,10 @@ function ShoppingCart({ isActive = true }) {
      
              {/* Floating Icons */}
              <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
-               <a href="https://wa.me/123456789" target="_blank" rel="noreferrer">
-                 <FaWhatsapp className="text-green-500 text-5xl bg-green-800 rounded-full shadow-lg p-2" />
-               </a>
+              <a href="https://wa.me/2348121091801" target="_blank" rel="noreferrer">
+  <FaWhatsapp className="text-green-500 text-5xl bg-green-800 rounded-full shadow-lg p-2" />
+</a>
+
              <Link to='/cart'> <FaShoppingCart className="text-gray-800 text-5xl bg-white rounded-full shadow-lg p-2 cursor-pointer" /></Link>
              </div>
            </section> 
@@ -229,17 +229,7 @@ We partner with designers, business owners, and hospitality brands to create cus
       </div>
     </div>
 
-    
     {/* Step 3 */}
-    <div className="flex items-start gap-4">
-      <ShieldCheckIcon className="w-10 h-12 text-white  rounded-full p-1" />
-
-      <div>
-        <h3 className="text-lg font-bold">DELIVERY & SETUP</h3>
-        <p className="text-sm mt-1">Finished pieces delivered, ready to transform your space.</p>
-      </div>
-    </div>
-{/* Step 4 */}
     <div className="flex items-start gap-4">
       <ShieldCheckIcon className="w-10 h-12 text-white  rounded-full p-1" />
 
@@ -248,6 +238,16 @@ We partner with designers, business owners, and hospitality brands to create cus
         <p className="text-sm mt-1">Handcrafting using sustainable materials, ensuring quality and durability.</p>
       </div>
     </div>
+    {/* Step 4*/}
+    <div className="flex items-start gap-4">
+      <ShieldCheckIcon className="w-10 h-12 text-white  rounded-full p-1" />
+
+      <div>
+        <h3 className="text-lg font-bold">DELIVERY & SETUP</h3>
+        <p className="text-sm mt-1">Finished pieces delivered, ready to transform your space.</p>
+      </div>
+    </div>
+
 
   </div>
   </div>
@@ -319,16 +319,23 @@ We partner with designers, business owners, and hospitality brands to create cus
             <h4 className="font-semibold mb-2">CONTACT US</h4>
             <p>Got any questions, send us a message</p>
             <p className="mt-4">07061714506</p>
-            <p>royaltyrecyclinghub@gmail.com</p>
+ <a href="mailto:royaltyrecyclinghub@gmail.com">
+ <p>royaltyrecyclinghub@gmail.com</p></a>
             <div className="flex gap-4 mt-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/share/1HjT7HANDG/" target="_blank" rel="noopener noreferrer">
                 <FaFacebook className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/royalty_ecofurnishings?igsh=OGxxbnB3dzc1dTF2" target="_blank" rel="noopener noreferrer">
                 <FaInstagram className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <FaXTwitter className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+              <a href="https://www.linkedin.com/posts/royalty-recycling-hub_wearelasu-sustainabilityinaction-circulareconomy-activity-7341504216324042752-Exx_?utm_source=share&utm_medium=member_android&rcm=ACoAAB8SayMB8Jk2zk22r9kpOSugsRVCI2b0wmc" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+              </a>
+               <a href="https://pin.it/5cMbLjOYn" target="_blank" rel="noopener noreferrer">
+                <FaPinterest className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
+              </a>
+               <a href="https://www.snapchat.com/add/eco-furnishings?share_id=hDcqEzn68mc&locale=en-GB" target="_blank" rel="noopener noreferrer">
+                <FaSnapchat className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
               </a>
             </div>
           </div>
@@ -339,7 +346,9 @@ We partner with designers, business owners, and hospitality brands to create cus
                          <Link to="/shop"> <li>Shop</li></Link>
                          <Link to="/about"> <li>About us</li></Link>
                           <Link to="/blog"> <li>Blog</li></Link>
-                                       <Link to=""> <li>Contact us</li></Link> 
+                          <a href="mailto:royaltyrecyclinghub@gmail.com">
+  <li>Contact us</li>
+</a>
             </ul>
           </div>
         </div>
