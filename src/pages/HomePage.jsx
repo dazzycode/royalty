@@ -347,7 +347,7 @@ const testimonials = [
   <div className="bg-white shadow-md rounded-lg overflow-hidden">
     <Link to="/restaurant">
       <img
-        src="/nude.jpg"
+        src="/pastoffice2.jpg"
         alt="Restaurant"
         className="w-full h-100 object-cover hover:scale-105 transition-transform duration-300"
       />    </Link>

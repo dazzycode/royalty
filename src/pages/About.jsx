@@ -136,7 +136,7 @@ function ShoppingCart({ isActive = true }) {
       <img
   src="/ceo.jpg"
   alt="Ruth Oladoja"
-  className="h-32 w-auto rounded-md"
+  className="h-96 w-auto rounded-md"
 />
 
       </div>

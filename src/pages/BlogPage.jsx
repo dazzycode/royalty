@@ -103,7 +103,7 @@ Benefits of Reclaimed Materials
          By choosing reclaimed materials, we are not only reducing waste but also: </p>
          <ul>
           <li  className="text-sm text-justify leading-relaxed text-black"> Preserving nature </li>
-                             <li className="text-sm text-justify leading-relaxed text-gray-700"> Preserving nature </li>
+                             <li className="text-sm text-justify leading-relaxed text-black"> Preserving nature </li>
  <li className="text-sm text-justify leading-relaxed text-black" > Creating unique, one-of-a-kind pieces </li>
                       </ul>
                       <h3 className="text-xl text-black font-semibold mb-2">
@@ -112,7 +112,7 @@ Join the Movement
         <p className="text-sm text-justify leading-relaxed text-black mb-4">
 At Royalty Recycling Hub, we invite you to experience the beauty of sustainable luxury. Our eco-friendly furnishings are not just luxurious– they are also a statement about the kind of world we want to create. Join us in our commitment to sustainability, and let's create a better future, one piece of furniture at a time.
 </p>
-   <h3 className="text-xltext-black  font-semibold mb-2">
+   <h3 className="text-xl text-black  font-semibold mb-2">
 Explore Our Collection
         </h3>
         <p className="text-sm text-justify leading-relaxed text-black mb-4">
@@ -165,10 +165,10 @@ The Benefits
 Our upcycled PET bottle stools offer numerous benefits:
           </p> 
          <ul>
-         <li><strong>Reduced waste:</strong>Diverting waste from landfills and oceans.</li>
-          <li><strong>Sustainable design: </strong> Made from reclaimed materials, reducing the need for virgin plastics.</li>
-          <li><strong>Unique design:</strong> One-of-a-kind texture and pattern created by upcycled PET bottles.</li>
-          <li><strong> Durable and functional:</strong> Designed for longevity, perfect for homes and offices.</li>
+         <li className="text-sm text-justify leading-relaxed text-black"><strong>Reduced waste:</strong>Diverting waste from landfills and oceans.</li>
+          <li className="text-sm text-justify leading-relaxed text-black"><strong>Sustainable design: </strong> Made from reclaimed materials, reducing the need for virgin plastics.</li>
+          <li className="text-sm text-justify leading-relaxed text-black"><strong>Unique design:</strong> One-of-a-kind texture and pattern created by upcycled PET bottles.</li>
+          <li className="text-sm text-justify leading-relaxed text-black"><strong> Durable and functional:</strong> Designed for longevity, perfect for homes and offices.</li>
                       </ul>
                       <h3 className="text-xl text-black font-semibold mb-2">
 Join the Movement
@@ -176,7 +176,7 @@ Join the Movement
         <p className="text-sm text-justify leading-relaxed text-black mb-4">
 At Royalty Recycling Hub, we are passionate about promoting sustainable design and reducing waste. Our stools showcase our commitment to eco-friendly design. Join us in creating a more sustainable future.
 </p>
-   <h3 className="text-xltext-black  font-semibold mb-2">
+   <h3 className="text-xl text-black  font-semibold mb-2">
 Get Your Hands on Our IdanEcoStool and Mori Stools
         </h3>
         <p className="text-sm text-justify leading-relaxed text-black mb-4">
@@ -237,7 +237,7 @@ function ShoppingCart({ isActive = true }) {
                         <div className="grid grid-cols-1 gap-4">
                           {/* Trainings */}
                           <Link to="/training" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                            <img src="/training.png" alt="Trainings" className="w-1/3 h-full object-cover" />
+                            <img src="/train.jpg" alt="Trainings" className="w-1/3 h-full object-cover" />
                             <div className="p-4 flex flex-col justify-center">
                               <h3 className="text-lg font-bold mb-1">Trainings</h3>
                               <p className="text-sm text-gray-600 text-justify">Learn sustainable furniture design and production from industry experts — hands-on and future-focused</p>
@@ -246,7 +246,7 @@ function ShoppingCart({ isActive = true }) {
           
                           {/* Trade */}
                           <Link to="/trade" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 mt-3 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                            <img src="/trading.png" alt="To the Trade" className="w-1/3 h-full object-cover" />
+                            <img src="/sustain-bg.jpg" alt="To the Trade" className="w-1/3 h-full object-cover" />
                             <div className="p-4 flex flex-col justify-center">
                               <h3 className="text-lg font-bold mb-1">To the trades</h3>
                               <p className="text-sm text-gray-600 text-justify">Tailored designs for your brand — collaborate with us to craft bespoke, sustainable furniture that reflects your style and vision.</p>
