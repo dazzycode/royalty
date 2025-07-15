@@ -139,7 +139,7 @@ function ShoppingCart({ isActive = true }) {
 
       {/* Hero Section */}
       <div className="relative pt-20">
-        <img src="/train.jpg" alt="hero" className="w-full h-[50vh] object-cover" />
+        <img src="/train.jpg" alt="hero" className="w-full h-[70vh] object-cover" />
       </div>
 
       {/* Main Content */}

@@ -39,18 +39,18 @@ const images = [
                 link: "/details"
 
      },
-    { src: '/pastoffice.jpg', caption: 'MORI EndStools',
+    { src: '/man.jpg', caption: 'MORI EndStools',
 
      },
     { src: '/pastoffice2.jpg', caption: 'NATUREPINT',
       
 
      },
-    { src: '/pastoffice3.jpg', caption: 'NATUREPINT',
+    { src: '/chairs.jpg', caption: 'NATUREPINT',
       
 
      },
-        { src: '/pastoffice4.jpg', caption: 'NATUREPINT',
+        { src: '/pastoffice.jpg', caption: 'NATUREPINT',
 
          },
  { src: '/sustain-bg.jpg', caption: 'NATUREPINT',
@@ -179,11 +179,12 @@ function ShoppingCart({ isActive = true }) {
       key={index}
       className="group block rounded overflow-hidden shadow-lg transform transition duration-300 hover:scale-105"
     >
-      <img
-        src={img.src}
-        alt={img.caption}
-        className="w-full h-64 py-5 object-cover"
-      />
+     <img
+  src={img.src}
+  alt={img.caption}
+  className="w-full h-96 py-5 object-cover"
+/>
+
       <div className="px-4 py-3 bg-white text-center font-semibold">
         {img.caption}
       </div>

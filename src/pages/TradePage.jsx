@@ -196,7 +196,7 @@ We partner with designers, business owners, and hospitality brands to create cus
   {/*  Image - Left */}
  <div className="w-full md:w-1/2">
       <img
-        src="/trade.png"
+        src="/hub.jpg"
         alt="Home Style"
         className="w-full h-full object-cover rounded shadow-lg"
       />
@@ -262,19 +262,19 @@ We partner with designers, business owners, and hospitality brands to create cus
   {/* Image Grid - Custom Layout */}
   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
     <div className="col-span-1 md:col-span-1 row-span-1">
-      <img src="/pastoffice.jpg" alt="Project 1" className="w-full h-full object-cover rounded" />
+      <img src="/train1.jpg" alt="Project 1" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-2 row-span-2">
-      <img src="/pastoffice2.jpg" alt="Project 2" className="w-full h-full object-cover rounded" />
+      <img src="/clock.jpg" alt="Project 2" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-1 row-span-1">
       <img src="/pastoffice3.jpg" alt="Project 3" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-1 row-span-1">
-      <img src="/pastoffice4.jpg" alt="Project 4" className="w-full h-full object-cover rounded" />
+      <img src="/nude.jpg" alt="Project 4" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-1 row-span-1">
-      <img src="/nude.jpg" alt="Project 5" className="w-full h-full object-cover rounded" />
+      <img src="/flex.jpg" alt="Project 5" className="w-full h-full object-cover rounded" />
     </div>
     
   </div>
@@ -282,7 +282,7 @@ We partner with designers, business owners, and hospitality brands to create cus
 
 <section
   className="relative w-full min-h-[550px] bg-cover bg-center bg-no-repeat flex items-center justify-center px-6 md:px-20"
-  style={{ backgroundImage: "url('/train1.jpg')" }}
+  style={{ backgroundImage: "url('/pastoffice.jpg')" }}
 >
   {/* Dark overlay */}
   <div className="absolute inset-0 bg-black/60 z-0" />

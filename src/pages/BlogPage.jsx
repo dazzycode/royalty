@@ -67,7 +67,7 @@ details: (
           <li>Designing for recyclability and modularity</li>
         </ul>
 
-        <p className="text-sm">Join now and show your skills!</p>
+        <p className=" text-black text-sm">Join now and show your skills!</p>
       </div>
     ),
   },
@@ -79,51 +79,109 @@ details: (
     date: "Nov 7, 2024",
 details: (
   <div>
- <h3 className="text-xl font-semibold mb-2">
+ <h3 className="text-xl text-black font-semibold mb-2">
           Introducing Sustainable Waste Solutions
         </h3>
-        <p className="text-sm leading-relaxed  text-justify text-gray-700 mb-4">
+        <p className="text-sm leading-relaxed  text-justify text-black mb-4">
         At Royalty Recycling Hub, we are passionate about creating beautiful, functional pieces that not only enhance your space but also contribute to a healthier planet. Our objective is to redefine luxury through sustainable design, using reclaimed materials to craft unique, eco-friendly furnishings.
  </p>
-  <h3 className="text-xl font-semibold mb-2">
+  <h3 className="text-xl text-black font-semibold mb-2">
 The Story Behind Our Materials
         </h3>
-        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
+        <p className="text-sm text-justify leading-relaxed text-black mb-4">
          We believe that good design should not come at the expense of the environment. That is why we source reclaimed materials, giving old materials a new life and reducing waste. From reclaimed wood to repurposed tyres, every piece tells a story of transformation and renewal.
 </p>
-<h3 className="text-xl font-semibold mb-2">
+<h3 className="text-xl text-black  font-semibold mb-2">
 Our Design Philosophy
         </h3>
-        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
+        <p className="text-sm text-justify leading-relaxed text-black mb-4">
         Our team of skilled artisans and designers work tirelessly to breathe new life into salvaged materials. Each piece is carefully crafted to showcase a unique furniture experience , while also meeting the highest standards of quality and functionality. </p>
-       <h3 className="text-xl font-semibold mb-2">
+       <h3 className="text-xl text-black font-semibold mb-2">
 Benefits of Reclaimed Materials
         </h3>
-        <p className="text-sm text-justify leading-relaxed text-gray-700">
+        <p className="text-sm text-justify leading-relaxed text-black">
          By choosing reclaimed materials, we are not only reducing waste but also: </p>
          <ul>
-          <li  className="text-sm text-justify leading-relaxed text-gray-700"> Preserving nature </li>
+          <li  className="text-sm text-justify leading-relaxed text-black"> Preserving nature </li>
                              <li className="text-sm text-justify leading-relaxed text-gray-700"> Preserving nature </li>
- <li className="text-sm text-justify leading-relaxed text-gray-700" > Creating unique, one-of-a-kind pieces </li>
+ <li className="text-sm text-justify leading-relaxed text-black" > Creating unique, one-of-a-kind pieces </li>
                       </ul>
-                      <h3 className="text-xl font-semibold mb-2">
+                      <h3 className="text-xl text-black font-semibold mb-2">
 Join the Movement
         </h3>
-        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
+        <p className="text-sm text-justify leading-relaxed text-black mb-4">
 At Royalty Recycling Hub, we invite you to experience the beauty of sustainable luxury. Our eco-friendly furnishings are not just luxurious– they are also a statement about the kind of world we want to create. Join us in our commitment to sustainability, and let's create a better future, one piece of furniture at a time.
 </p>
-   <h3 className="text-xl font-semibold mb-2">
+   <h3 className="text-xltext-black  font-semibold mb-2">
 Explore Our Collection
         </h3>
-        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
+        <p className="text-sm text-justify leading-relaxed text-black mb-4">
 Discover our latest creations, each one a testament to the power of sustainable design. From statement pieces to functional essentials, our collection showcases the best of eco-friendly furnishings.
 </p>
- <h3 className="text-xl font-semibold mb-2">
+ <h3 className="text-xl text-black  font-semibold mb-2">
 Let's Get in Touch
         </h3>
-        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
+        <p className="text-sm text-justify leading-relaxed text-black mb-4">
 Ready to learn more about our sustainable design process or commission a custom piece? Contact us today to start the conversation.
 </p>
+  </div>
+ ),
+  },
+   {
+    id: 3,
+    title: "Transforming Trash into Treasure: Royalty Recycling Hub Launches Innovative Upcycled PET Bottle Stools",
+    image: "/hub.jpg",
+    date: "Nov 8, 2024",
+details: (
+  <div>
+ <h3 className="text-xl text-black font-semibold mb-2">
+Transforming Trash into Treasure: Royalty Recycling Hub Launches Innovative Upcycled PET Bottle Stools
+        </h3>
+        <p className="text-sm leading-relaxed  text-justify text-black mb-4">
+We are thrilled to introduce our latest sustainable design project: upcycling PET bottles into unique and functional end stools! At Royalty Recycling Hub, we are dedicated to reducing waste and promoting eco-friendly design.
+ </p>
+  <h3 className="text-xl text-black font-semibold mb-2">
+The Problem: Plastic Waste
+        </h3>
+        <p className="text-sm text-justify leading-relaxed text-black mb-4">
+Plastic waste is a significant environmental issue, with millions of tons ending up in landfills and oceans annually. PET bottles contribute to this problem, often being discarded after a single use.
+
+</p>
+<h3 className="text-xl text-black  font-semibold mb-2">
+The Solution: Upcycled PET Bottle Stools
+        </h3>
+        <p className="text-sm text-justify leading-relaxed text-black mb-4">
+        Our team of skilled artisans and designers work tirelessly to breathe new life into salvaged materials. Each piece is carefully crafted to showcase a unique furniture experience , while also meeting the highest standards of quality and functionality. </p>
+       <h3 className="text-xl text-black font-semibold mb-2">
+Benefits of Reclaimed Materials
+        </h3>
+        <p className="text-sm text-justify leading-relaxed text-black">
+Our team has developed a creative solution by transforming PET bottles into stylish and functional stools. The process involves collecting, cleaning, and building selected PET bottles into durable and versatile stools.
+          </p>
+           <h3 className="text-xl text-black font-semibold mb-2">
+The Benefits
+        </h3>
+         <p className="text-sm text-justify leading-relaxed text-black">
+Our upcycled PET bottle stools offer numerous benefits:
+          </p> 
+         <ul>
+         <li><strong>Reduced waste:</strong>Diverting waste from landfills and oceans.</li>
+          <li><strong>Sustainable design: </strong> Made from reclaimed materials, reducing the need for virgin plastics.</li>
+          <li><strong>Unique design:</strong> One-of-a-kind texture and pattern created by upcycled PET bottles.</li>
+          <li><strong> Durable and functional:</strong> Designed for longevity, perfect for homes and offices.</li>
+                      </ul>
+                      <h3 className="text-xl text-black font-semibold mb-2">
+Join the Movement
+        </h3>
+        <p className="text-sm text-justify leading-relaxed text-black mb-4">
+At Royalty Recycling Hub, we are passionate about promoting sustainable design and reducing waste. Our stools showcase our commitment to eco-friendly design. Join us in creating a more sustainable future.
+</p>
+   <h3 className="text-xltext-black  font-semibold mb-2">
+Get Your Hands on Our IdanEcoStool and Mori Stools
+        </h3>
+        <p className="text-sm text-justify leading-relaxed text-black mb-4">
+Experience sustainable design with our collection of end stools and puff stools, designed for all ages. Learn more about our design process and let's create a more sustainable future together!</p>
+
   </div>
  ),
   },

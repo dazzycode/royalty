@@ -69,7 +69,7 @@ function ShoppingCart({ isActive = true }) {
                    <div className="grid grid-cols-1 gap-4">
                      {/* Trainings */}
                      <Link to="/training" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                       <img src="/train,jpg" alt="Trainings" className="w-1/3 h-full object-cover" />
+                       <img src="/train.jpg" alt="Trainings" className="w-1/3 h-full object-cover" />
                        <div className="p-4 flex flex-col justify-center">
                          <h3 className="text-lg font-bold mb-1">Trainings</h3>
                          <p className="text-sm text-gray-600 text-justify">Learn sustainable furniture design and production from industry experts — hands-on and future-focused</p>
@@ -78,7 +78,7 @@ function ShoppingCart({ isActive = true }) {
      
                      {/* Trade */}
                      <Link to="/trade" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 mt-3 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                       <img src="/sustain-bg.png" alt="To the Trade" className="w-1/3 h-full object-cover" />
+                       <img src="/sustain-bg.jpg" alt="To the Trade" className="w-1/3 h-full object-cover" />
                        <div className="p-4 flex flex-col justify-center">
                          <h3 className="text-lg font-bold mb-1">To the trades</h3>
                          <p className="text-sm text-gray-600 text-justify">Tailored designs for your brand — collaborate with us to craft bespoke, sustainable furniture that reflects your style and vision.</p>
@@ -133,11 +133,12 @@ function ShoppingCart({ isActive = true }) {
 
       {/* Image Section */}
       <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-8">
-        <img
-          src="/ceo.jpg"
-          alt="Ruth Oladoja"
-          className=""
-        />
+      <img
+  src="/ceo.jpg"
+  alt="Ruth Oladoja"
+  className="h-32 w-auto rounded-md"
+/>
+
       </div>
       <div className="flex-1 mb-4">
         <h2 className="text-2xl font-semibold mb-4">MEET RUTH OLADOJA</h2>

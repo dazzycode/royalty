@@ -151,7 +151,7 @@ const testimonials = [
               <div className="grid grid-cols-1 gap-4">
                 {/* Trainings */}
                 <Link to="/training" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                  <img src="/training.png" alt="Trainings" className="w-1/3 h-full object-cover" />
+                  <img src="/train.jpg" alt="Trainings" className="w-1/3 h-full object-cover" />
                   <div className="p-4 flex flex-col justify-center">
                     <h3 className="text-lg font-bold mb-1">Trainings</h3>
                     <p className="text-sm text-gray-600 text-justify">Learn sustainable furniture design and production from industry experts — hands-on and future-focused</p>
@@ -160,7 +160,7 @@ const testimonials = [
 
                 {/* Trade */}
                 <Link to="/trade" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 mt-3 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                  <img src="/trading.png" alt="To the Trade" className="w-1/3 h-full object-cover" />
+                  <img src="/sustain-bg.jpg" alt="To the Trade" className="w-1/3 h-full object-cover" />
                   <div className="p-4 flex flex-col justify-center">
                     <h3 className="text-lg font-bold mb-1">To the trades</h3>
                     <p className="text-sm text-gray-600 text-justify">Tailored designs for your brand — collaborate with us to craft bespoke, sustainable furniture that reflects your style and vision.</p>
@@ -336,7 +336,7 @@ const testimonials = [
   <div className="bg-white shadow-md rounded-lg overflow-hidden">
     <Link to="/landscape">
       <img
-        src="/pastoffice12.jpg"
+        src="/pastoffice2.jpg"
         alt="Landscape"
         className="w-full h-100 object-cover hover:scale-105 transition-transform duration-300"
       />
@@ -347,7 +347,7 @@ const testimonials = [
   <div className="bg-white shadow-md rounded-lg overflow-hidden">
     <Link to="/restaurant">
       <img
-        src="/pastoffice3.jpg"
+        src="/nude.jpg"
         alt="Restaurant"
         className="w-full h-100 object-cover hover:scale-105 transition-transform duration-300"
       />    </Link>
