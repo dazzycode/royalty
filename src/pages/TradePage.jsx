@@ -77,7 +77,7 @@ function ShoppingCart({ isActive = true }) {
                          <div className="grid grid-cols-1 gap-4">
                            {/* Trainings */}
                            <Link to="/training" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                             <img src="/training.png" alt="Trainings" className="w-1/3 h-full object-cover" />
+                             <img src="/train.jpg" alt="Trainings" className="w-1/3 h-full object-cover" />
                              <div className="p-4 flex flex-col justify-center">
                                <h3 className="text-lg font-bold mb-1">Trainings</h3>
                                <p className="text-sm text-gray-600 text-justify">Learn sustainable furniture design and production from industry experts — hands-on and future-focused</p>
@@ -86,7 +86,7 @@ function ShoppingCart({ isActive = true }) {
            
                            {/* Trade */}
                            <Link to="/trade" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 mt-3 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                             <img src="/trading.png" alt="To the Trade" className="w-1/3 h-full object-cover" />
+                             <img src="/sustain-bg.jpg" alt="To the Trade" className="w-1/3 h-full object-cover" />
                              <div className="p-4 flex flex-col justify-center">
                                <h3 className="text-lg font-bold mb-1">To the trades</h3>
                                <p className="text-sm text-gray-600 text-justify">Tailored designs for your brand — collaborate with us to craft bespoke, sustainable furniture that reflects your style and vision.</p>
@@ -138,7 +138,7 @@ function ShoppingCart({ isActive = true }) {
       {/* Hero Section */}
       <section className="relative pt-20">
              <img
-               src="/trade.png"
+               src="/sustain-bg.jpg"
                alt="hero"
                className="w-full h-[150%] md:h-[60vh] object-cover"
              />
@@ -170,7 +170,7 @@ function ShoppingCart({ isActive = true }) {
      {/* Left Column - Image */}
 <div className="w-full md:w-1/2">
       <img
-        src="/trade.png"
+        src="/pastoffice2.jpg"
         alt="Home Style"
         className="w-full h-full object-cover rounded shadow-lg"
       />
@@ -262,19 +262,19 @@ We partner with designers, business owners, and hospitality brands to create cus
   {/* Image Grid - Custom Layout */}
   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
     <div className="col-span-1 md:col-span-1 row-span-1">
-      <img src="/office.png" alt="Project 1" className="w-full h-full object-cover rounded" />
+      <img src="/pastoffice.jpg" alt="Project 1" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-2 row-span-2">
-      <img src="/new.png" alt="Project 2" className="w-full h-full object-cover rounded" />
+      <img src="/pastoffice2.jpg" alt="Project 2" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-1 row-span-1">
-      <img src="/restaurant.png" alt="Project 3" className="w-full h-full object-cover rounded" />
+      <img src="/pastoffice3.jpg" alt="Project 3" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-1 row-span-1">
-      <img src="/landscape.png" alt="Project 4" className="w-full h-full object-cover rounded" />
+      <img src="/pastoffice4.jpg" alt="Project 4" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-1 row-span-1">
-      <img src="/trade.png" alt="Project 5" className="w-full h-full object-cover rounded" />
+      <img src="/nude.jpg" alt="Project 5" className="w-full h-full object-cover rounded" />
     </div>
     
   </div>
@@ -282,7 +282,7 @@ We partner with designers, business owners, and hospitality brands to create cus
 
 <section
   className="relative w-full min-h-[550px] bg-cover bg-center bg-no-repeat flex items-center justify-center px-6 md:px-20"
-  style={{ backgroundImage: "url('/trainee.png')" }}
+  style={{ backgroundImage: "url('/train1.jpg')" }}
 >
   {/* Dark overlay */}
   <div className="absolute inset-0 bg-black/60 z-0" />
@@ -318,8 +318,8 @@ We partner with designers, business owners, and hospitality brands to create cus
           <div>
             <h4 className="font-semibold mb-2">CONTACT US</h4>
             <p>Got any questions, send us a message</p>
-            <p className="mt-4">07061714506</p>
- <a href="mailto:royaltyrecyclinghub@gmail.com">
+ <p className="mt-4">+2348131961358</p>
+                        <p className="mt-4">+2348121091801</p> <a href="mailto:royaltyrecyclinghub@gmail.com">
  <p>royaltyrecyclinghub@gmail.com</p></a>
             <div className="flex gap-4 mt-4">
               <a href="https://www.facebook.com/share/1HjT7HANDG/" target="_blank" rel="noopener noreferrer">

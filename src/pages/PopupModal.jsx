@@ -56,7 +56,7 @@ const PopupModal = ({ show, onClose }) => {
         {/* Image Section */}
         <div className="flex justify-center items-center">
           <img
-            src="/popup.png"
+            src="/man.jpg"
             alt="EcoSofa"
             className="w-full h-auto max-w-[280px] rounded-lg object-cover"
           />

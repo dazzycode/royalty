@@ -74,7 +74,7 @@ function ShoppingCart({ isActive = true }) {
                         <div className="grid grid-cols-1 gap-4">
                           {/* Trainings */}
                           <Link to="/training" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                            <img src="/training.png" alt="Trainings" className="w-1/3 h-full object-cover" />
+                            <img src="/train.jpg" alt="Trainings" className="w-1/3 h-full object-cover" />
                             <div className="p-4 flex flex-col justify-center">
                               <h3 className="text-lg font-bold mb-1">Trainings</h3>
                               <p className="text-sm text-gray-600 text-justify">Learn sustainable furniture design and production from industry experts — hands-on and future-focused</p>
@@ -83,7 +83,7 @@ function ShoppingCart({ isActive = true }) {
           
                           {/* Trade */}
                           <Link to="/trade" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 mt-3 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                            <img src="/trading.png" alt="To the Trade" className="w-1/3 h-full object-cover" />
+                            <img src="/sustain-bg.jpg" alt="To the Trade" className="w-1/3 h-full object-cover" />
                             <div className="p-4 flex flex-col justify-center">
                               <h3 className="text-lg font-bold mb-1">To the trades</h3>
                               <p className="text-sm text-gray-600 text-justify">Tailored designs for your brand — collaborate with us to craft bespoke, sustainable furniture that reflects your style and vision.</p>
@@ -133,7 +133,7 @@ function ShoppingCart({ isActive = true }) {
          
       {/* Hero Section */}
       <div className="relative pt-20">
-        <img src="/shop.png" alt="hero" className="w-full h-[50%] md:h-[50vh] object-cover" />
+        <img src="/hub.jpg" alt="hero" className="w-full h-[50%] md:h-[50vh] object-cover" />
       </div>
 <section className="py-20 px-6 md:px-20 bg-white">
   {/* Heading */}
@@ -151,7 +151,7 @@ function ShoppingCart({ isActive = true }) {
   {/* Card 1 - Home */}
   <div className="flex flex-col md:flex-row items-center gap-6 pb-10 md:pb-20">
     <img
-      src="/shop1.png"
+      src="/clock.jpg"
       alt="Home Space"
       className="w-full md:w-[50%] h-full object-cover rounded-lg shadow transition-transform duration-500 hover:scale-105"
     />
@@ -168,7 +168,7 @@ function ShoppingCart({ isActive = true }) {
   {/* Card 2 - Office */}
   <div className="flex flex-col md:flex-row-reverse items-center gap-6 pt-10 md:pt-40">
     <img
-      src="/shop2.png"
+      src="/chairs.jpg"
       alt="Office Space"
       className="w-full md:w-[50%] h-full object-cover rounded-lg shadow transition-transform duration-500 hover:scale-105"
     />
@@ -185,7 +185,7 @@ function ShoppingCart({ isActive = true }) {
   {/* Card 3 - Home */}
   <div className="flex flex-col md:flex-row items-center gap-6 pb-10 md:pb-20">
     <img
-      src="/home.png"
+      src="/sustain-bg.jpg"
       alt="Home Space"
       className="w-full md:w-[50%] h-full object-cover rounded-lg shadow transition-transform duration-500 hover:scale-105"
     />
@@ -202,7 +202,7 @@ function ShoppingCart({ isActive = true }) {
   {/* Card 4 - Office */}
   <div className="flex flex-col md:flex-row-reverse items-center gap-6 pt-10 md:pt-40">
     <img
-      src="/landscape.png"
+      src="/flex.jpg"
       alt="Office Space"
       className="w-full md:w-[50%] h-full object-cover rounded-lg shadow transition-transform duration-500 hover:scale-105"
     />
@@ -228,8 +228,8 @@ function ShoppingCart({ isActive = true }) {
           <div>
             <h4 className="font-semibold mb-2">CONTACT US</h4>
             <p>Got any questions, send us a message</p>
-            <p className="mt-4">07061714506</p>
- <a href="mailto:royaltyrecyclinghub@gmail.com">
+ <p className="mt-4">+2348131961358</p>
+                        <p className="mt-4">+2348121091801</p> <a href="mailto:royaltyrecyclinghub@gmail.com">
  <p>royaltyrecyclinghub@gmail.com</p></a>
             <div className="flex gap-4 mt-4">
                <a href="https://www.facebook.com/share/1HjT7HANDG/" target="_blank" rel="noopener noreferrer">

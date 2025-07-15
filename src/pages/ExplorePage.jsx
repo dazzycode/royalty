@@ -50,7 +50,7 @@ const images = [
       
 
      },
-        { src: '/pastpoffice4.jpg', caption: 'NATUREPINT',
+        { src: '/pastoffice4.jpg', caption: 'NATUREPINT',
 
          },
  { src: '/sustain-bg.jpg', caption: 'NATUREPINT',

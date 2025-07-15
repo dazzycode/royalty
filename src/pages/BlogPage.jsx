@@ -32,7 +32,7 @@ const blogPosts = [
     id: 1,
     title: "Designing for a Greener Future: The Role of Interior Designers in Sustainable Furniture Design",
     image: "/explore1.png",
-    date: "Nov 10, 2024",
+    date: "Nov 6, 2024",
 details: (
       <div>
         <h3 className="text-lg text-black font-semibold mb-2">
@@ -73,12 +73,59 @@ details: (
   },
 
   {
-    id: 3,
+    id: 2,
     title: "The Role of Businesses in Sustainable Waste Management",
     image: "/explore1.png",
-    date: "Nov 6, 2024",
-      details: "We’re excited to launch the upcoming tournament with new rewards and formats..."
-
+    date: "Nov 7, 2024",
+details: (
+  <div>
+ <h3 className="text-xl font-semibold mb-2">
+          Introducing Sustainable Waste Solutions
+        </h3>
+        <p className="text-sm leading-relaxed  text-justify text-gray-700 mb-4">
+        At Royalty Recycling Hub, we are passionate about creating beautiful, functional pieces that not only enhance your space but also contribute to a healthier planet. Our objective is to redefine luxury through sustainable design, using reclaimed materials to craft unique, eco-friendly furnishings.
+ </p>
+  <h3 className="text-xl font-semibold mb-2">
+The Story Behind Our Materials
+        </h3>
+        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
+         We believe that good design should not come at the expense of the environment. That is why we source reclaimed materials, giving old materials a new life and reducing waste. From reclaimed wood to repurposed tyres, every piece tells a story of transformation and renewal.
+</p>
+<h3 className="text-xl font-semibold mb-2">
+Our Design Philosophy
+        </h3>
+        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
+        Our team of skilled artisans and designers work tirelessly to breathe new life into salvaged materials. Each piece is carefully crafted to showcase a unique furniture experience , while also meeting the highest standards of quality and functionality. </p>
+       <h3 className="text-xl font-semibold mb-2">
+Benefits of Reclaimed Materials
+        </h3>
+        <p className="text-sm text-justify leading-relaxed text-gray-700">
+         By choosing reclaimed materials, we are not only reducing waste but also: </p>
+         <ul>
+          <li  className="text-sm text-justify leading-relaxed text-gray-700"> Preserving nature </li>
+                             <li className="text-sm text-justify leading-relaxed text-gray-700"> Preserving nature </li>
+ <li className="text-sm text-justify leading-relaxed text-gray-700" > Creating unique, one-of-a-kind pieces </li>
+                      </ul>
+                      <h3 className="text-xl font-semibold mb-2">
+Join the Movement
+        </h3>
+        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
+At Royalty Recycling Hub, we invite you to experience the beauty of sustainable luxury. Our eco-friendly furnishings are not just luxurious– they are also a statement about the kind of world we want to create. Join us in our commitment to sustainability, and let's create a better future, one piece of furniture at a time.
+</p>
+   <h3 className="text-xl font-semibold mb-2">
+Explore Our Collection
+        </h3>
+        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
+Discover our latest creations, each one a testament to the power of sustainable design. From statement pieces to functional essentials, our collection showcases the best of eco-friendly furnishings.
+</p>
+ <h3 className="text-xl font-semibold mb-2">
+Let's Get in Touch
+        </h3>
+        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
+Ready to learn more about our sustainable design process or commission a custom piece? Contact us today to start the conversation.
+</p>
+  </div>
+ ),
   },
 ];
 const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -205,56 +252,19 @@ function ShoppingCart({ isActive = true }) {
         <p className="text-sm text-gray-500 mb-6">Nov 6, 2024</p>
 
         <img
-          src="/blog.png"
+          src="/ceo.jpg"
           alt="featured"
           className="w-full h-auto rounded-md object-cover mb-6"
         />
+ <p className="text-sm leading-relaxed text-justify text-gray-700 mb-4">
+         Ruth Oladoja is the Founder and creative director of Royalty Recycling Hub 
 
-        <h3 className="text-xl font-semibold mb-2">
-          Introducing Sustainable Waste Solutions
-        </h3>
+        </p>
         <p className="text-sm leading-relaxed  text-justify text-gray-700 mb-4">
-        At Royalty Recycling Hub, we are passionate about creating beautiful, functional pieces that not only enhance your space but also contribute to a healthier planet. Our objective is to redefine luxury through sustainable design, using reclaimed materials to craft unique, eco-friendly furnishings.
- </p>
-  <h3 className="text-xl font-semibold mb-2">
-The Story Behind Our Materials
-        </h3>
-        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
-         We believe that good design should not come at the expense of the environment. That is why we source reclaimed materials, giving old materials a new life and reducing waste. From reclaimed wood to repurposed tyres, every piece tells a story of transformation and renewal.
-</p>
-<h3 className="text-xl font-semibold mb-2">
-Our Design Philosophy
-        </h3>
-        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
-        Our team of skilled artisans and designers work tirelessly to breathe new life into salvaged materials. Each piece is carefully crafted to showcase a unique furniture experience , while also meeting the highest standards of quality and functionality. </p>
-       <h3 className="text-xl font-semibold mb-2">
-Benefits of Reclaimed Materials
-        </h3>
-        <p className="text-sm text-justify leading-relaxed text-gray-700">
-         By choosing reclaimed materials, we are not only reducing waste but also: </p>
-         <ul>
-          <li  className="text-sm text-justify leading-relaxed text-gray-700"> Preserving nature </li>
-                             <li className="text-sm text-justify leading-relaxed text-gray-700"> Preserving nature </li>
- <li className="text-sm text-justify leading-relaxed text-gray-700" > Creating unique, one-of-a-kind pieces </li>
-                      </ul>
-                      <h3 className="text-xl font-semibold mb-2">
-Join the Movement
-        </h3>
-        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
-At Royalty Recycling Hub, we invite you to experience the beauty of sustainable luxury. Our eco-friendly furnishings are not just luxurious– they are also a statement about the kind of world we want to create. Join us in our commitment to sustainability, and let's create a better future, one piece of furniture at a time.
-</p>
-   <h3 className="text-xl font-semibold mb-2">
-Explore Our Collection
-        </h3>
-        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
-Discover our latest creations, each one a testament to the power of sustainable design. From statement pieces to functional essentials, our collection showcases the best of eco-friendly furnishings.
-</p>
- <h3 className="text-xl font-semibold mb-2">
-Let's Get in Touch
-        </h3>
-        <p className="text-sm text-justify leading-relaxed text-gray-700 mb-4">
-Ready to learn more about our sustainable design process or commission a custom piece? Contact us today to start the conversation.
-</p>
+         At Royalty Recycling Hub we are redefining the furniture industry with eco-friendly designs, sustainable materials, and effective waste management practices. Our mission is to create a new standard of luxury furniture that prioritizes quality, aesthetics, and environmental responsibility. By upcycling, educating, and innovating, we're closing the loop on waste and building a cleaner future. Through our commitment to sustainability, we're proving that style and environmental responsibility can coexist, inspiring a new era of eco-conscious design and consumption. Join us in revolutionizing the furniture industry with sustainable luxury pieces that redefine style and comfort.
+        </p>
+       
+       
       </div>
 
       {/* Sidebar */}

@@ -9,7 +9,7 @@ const ServiceModal = ({ isOpen, onClose }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Trainings Card */}
           <div className="bg-gray-100 rounded-xl overflow-hidden shadow">
-            <img src="/trainings.jpg" alt="Trainings" className="w-full h-40 object-cover" />
+            <img src="/train.jpg" alt="Trainings" className="w-full h-40 object-cover" />
             <div className="p-4">
               <h3 className="text-xl font-bold mb-2">Trainings</h3>
               <p className="text-sm text-gray-600">
@@ -20,7 +20,7 @@ const ServiceModal = ({ isOpen, onClose }) => {
 
           {/* To the Trade Card */}
           <div className="bg-gray-100 rounded-xl overflow-hidden shadow">
-            <img src="/tothetrade.jpg" alt="To the Trade" className="w-full h-40 object-cover" />
+            <img src="/sustain-bg.jpg" alt="To the Trade" className="w-full h-40 object-cover" />
             <div className="p-4">
               <h3 className="text-xl font-bold mb-2">To the Trade</h3>
               <p className="text-sm text-gray-600">

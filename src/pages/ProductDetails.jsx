@@ -26,7 +26,7 @@ const ProductDetails = () => {
   const products = [
     {
       id: 1,
-      image: '/explore2.png',
+      image: '/pastoffice.jpg',
       title: 'EQUALIZE SOFA',
       description:
         'EQUALIZE SOFA is crafted from sustainable wood and organic lines. This eco-luxe sofa offers a perfect blend of sustainability and comfort. Designed for durability, its plush cushioning and sturdy frame make it an eco-conscious addition to any modern home.',
@@ -36,7 +36,7 @@ const ProductDetails = () => {
     },
     {
       id: 2,
-      image: '/train.png',
+      image: '/pastoffice2.jpg',
       title: 'NATURENEST SOFA',
       description:
         'This sofa offers nature-inspired relaxation with breathable, eco-friendly fabric. Ideal for serene, minimalistic spaces.',
@@ -46,7 +46,7 @@ const ProductDetails = () => {
     },
     {
       id: 3,
-      image: '/trade.png',
+      image: '/pastoffice3.jpg',
       title: 'URBANLUXE CHAIR',
       description:
         'Designed for urban sustainability, this piece blends style and ethics — a perfect accent for conscious living.',
@@ -113,7 +113,7 @@ function ShoppingCart({ isActive = true }) {
                         <div className="grid grid-cols-1 gap-4">
                           {/* Trainings */}
                           <Link to="/training" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                            <img src="/training.png" alt="Trainings" className="w-1/3 h-full object-cover" />
+                            <img src="/train.jpg" alt="Trainings" className="w-1/3 h-full object-cover" />
                             <div className="p-4 flex flex-col justify-center">
                               <h3 className="text-lg font-bold mb-1">Trainings</h3>
                               <p className="text-sm text-gray-600 text-justify">Learn sustainable furniture design and production from industry experts — hands-on and future-focused</p>
@@ -122,7 +122,7 @@ function ShoppingCart({ isActive = true }) {
           
                           {/* Trade */}
                           <Link to="/trade" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 mt-3 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                            <img src="/trading.png" alt="To the Trade" className="w-1/3 h-full object-cover" />
+                            <img src="/sustain-bg.jpg" alt="To the Trade" className="w-1/3 h-full object-cover" />
                             <div className="p-4 flex flex-col justify-center">
                               <h3 className="text-lg font-bold mb-1">To the trades</h3>
                               <p className="text-sm text-gray-600 text-justify">Tailored designs for your brand — collaborate with us to craft bespoke, sustainable furniture that reflects your style and vision.</p>
@@ -243,8 +243,8 @@ function ShoppingCart({ isActive = true }) {
           <div>
             <h4 className="font-semibold mb-2">CONTACT US</h4>
             <p>Got any questions? Send us a message</p>
-            <p className="mt-4">07061714506</p>
-             <a href="mailto:royaltyrecyclinghub@gmail.com">
+ <p className="mt-4">+2348131961358</p>
+                        <p className="mt-4">+2348121091801</p>             <a href="mailto:royaltyrecyclinghub@gmail.com">
  <p>royaltyrecyclinghub@gmail.com</p></a>
             <div className="flex gap-4 mt-4">
              <a href="https://www.facebook.com/share/1HjT7HANDG/" target="_blank" rel="noopener noreferrer">
