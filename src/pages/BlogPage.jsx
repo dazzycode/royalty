@@ -35,24 +35,24 @@ const blogPosts = [
     date: "Nov 10, 2024",
 details: (
       <div>
-        <h3 className="text-lg font-semibold mb-2">
+        <h3 className="text-lg text-black font-semibold mb-2">
           Designing for a Greener Future: The Role of Interior Designers in Sustainable Furniture Design
         </h3>
-        <p className="mb-2">
+        <p className="mb-2 text-black">
           As interior designers, we have the power to shape the spaces where people live, work, and interact...
         </p>
 
-        <h4 className="font-semibold mb-1">Why Sustainable Furniture Design Matters</h4>
-        <p className="mb-2">The furniture industry has a significant impact on the environment...</p>
-        <ul className="list-disc pl-5 text-sm mb-2">
+        <h4 className="font-semibold  text-black mb-1">Why Sustainable Furniture Design Matters</h4>
+        <p className="mb-2  text-black">The furniture industry has a significant impact on the environment...</p>
+        <ul className="list-disc pl-5  text-black text-sm mb-2">
           <li>Conserving natural resources</li>
           <li>Reducing greenhouse gas emissions</li>
           <li>Minimizing waste and promoting recycling</li>
           <li>Creating healthier indoor environments</li>
         </ul>
 
-        <h4 className="font-semibold mb-1">How Designers Can Help</h4>
-        <ul className="list-disc pl-5 text-sm mb-2">
+        <h4 className="font-semibold  text-black mb-1">How Designers Can Help</h4>
+        <ul className="list-disc pl-5 text-black  text-sm mb-2">
           <li><strong>Specify eco-friendly materials:</strong> Choose materials that are sustainable...</li>
           <li><strong>Design for longevity:</strong> Create timeless and durable designs...</li>
           <li><strong>Select sustainable furniture:</strong> Choose low-impact, recyclable pieces...</li>
@@ -60,8 +60,8 @@ details: (
           <li><strong>Incorporate sustainable practices:</strong> Use digital tools, reduce waste...</li>
         </ul>
 
-        <h4 className="font-semibold mb-1">Best Practices</h4>
-        <ul className="list-disc pl-5 text-sm mb-2">
+        <h4 className="font-semibold  text-black mb-1">Best Practices</h4>
+        <ul className="list-disc pl-5 text-black  text-sm mb-2">
           <li>Using reclaimed or recycled materials</li>
           <li>Choosing local and sustainably sourced furniture</li>
           <li>Designing for recyclability and modularity</li>
