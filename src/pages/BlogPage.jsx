@@ -33,63 +33,45 @@ const blogPosts = [
     title: "Designing for a Greener Future: The Role of Interior Designers in Sustainable Furniture Design",
     image: "/explore1.png",
     date: "Nov 10, 2024",
- details: `
-    <h3 class="text-lg font-semibold mb-2">Designing for a Greener Future: The Role of Interior Designers in Sustainable Furniture Design</h3>
-    <p class="mb-2">As interior designers, we have the power to shape the spaces where people live, work, and interact. With the growing awareness of environmental issues, it's becoming increasingly important for designers to prioritize sustainability in their work. One crucial aspect of sustainable design is sustainable furniture design.</p>
-    <h4 class="font-semibold mb-1">Why Sustainable Furniture Design Matters</h4>
-     <p class="mb-2"> The furniture industry has a significant impact on the environment, from resource extraction and manufacturing to transportation and waste disposal. Sustainable furniture design can help reduce this impact by:
-</p>
-    <ul class="list-disc pl-5 text-sm mb-2">
-      <li>Conserving natural resources</li>
-      <li>Reducing greenhouse gas emissions</li>
-      <li>Minimizing waste and promoting recycling</li>
-            <li>Creating healthier indoor environments</li>
+details: (
+      <div>
+        <h3 className="text-lg font-semibold mb-2">
+          Designing for a Greener Future: The Role of Interior Designers in Sustainable Furniture Design
+        </h3>
+        <p className="mb-2">
+          As interior designers, we have the power to shape the spaces where people live, work, and interact...
+        </p>
 
-    </ul>
-     <h4 class="font-semibold mb-1">Why Sustainable Furniture Design Matters</h4>
-     <p class="mb-2"> Interior designers play a vital role in promoting sustainable furniture design. Here are some ways designers can make a positive impact:
-</p>
-    <ul class="list-disc pl-5 text-sm mb-2">
-      <li> <strong>Specify eco-friendly materials:</strong> Choose materials that are sustainable, recycled, or sustainably sourced.
-</li>
-      <li><strong> Design for longevity:</strong> Create designs that are timeless, durable, and adaptable to reduce waste and the need for frequent replacements.
-</li>
-      <li><strong>Select sustainable furniture:</strong> Choose furniture made from sustainable materials, produced with minimal environmental impact, and designed for recyclability or upcycling.
-</li>
-            <li><strong>Educate clients:</strong> Raise awareness about the benefits of sustainable design and encourage clients to make environmentally responsible choices.
-</li>
-              <li><strong>Incorporate sustainable practices:</strong> Implement sustainable practices in their own design processes, such as reducing waste and using digital tools to minimize paper usage.
-</li>
- </ul>
-  <h4 class="font-semibold mb-1">Best Practices for Sustainable Furniture Design
-</h4>
-     <p class="mb-2"> 
-Some best practices for sustainable furniture design include:
-</p>
-  <ul class="list-disc pl-5 text-sm mb-2">
-      <li>Using reclaimed or recycled materials
-</li>
-      <li> Specifying furniture made from sustainable sources
-</li>
-      <li>Choosing furniture with minimal packaging and locally sourced materials
-</li>
-            <li>Designing for deconstruction and recyclability
-</li>
- <li>Incorporating energy-efficient solutions
+        <h4 className="font-semibold mb-1">Why Sustainable Furniture Design Matters</h4>
+        <p className="mb-2">The furniture industry has a significant impact on the environment...</p>
+        <ul className="list-disc pl-5 text-sm mb-2">
+          <li>Conserving natural resources</li>
+          <li>Reducing greenhouse gas emissions</li>
+          <li>Minimizing waste and promoting recycling</li>
+          <li>Creating healthier indoor environments</li>
+        </ul>
 
-</li>
-    </ul>
-    <p class="text-sm">Join now and show your skills!</p>
-  `
+        <h4 className="font-semibold mb-1">How Designers Can Help</h4>
+        <ul className="list-disc pl-5 text-sm mb-2">
+          <li><strong>Specify eco-friendly materials:</strong> Choose materials that are sustainable...</li>
+          <li><strong>Design for longevity:</strong> Create timeless and durable designs...</li>
+          <li><strong>Select sustainable furniture:</strong> Choose low-impact, recyclable pieces...</li>
+          <li><strong>Educate clients:</strong> Promote environmental awareness...</li>
+          <li><strong>Incorporate sustainable practices:</strong> Use digital tools, reduce waste...</li>
+        </ul>
+
+        <h4 className="font-semibold mb-1">Best Practices</h4>
+        <ul className="list-disc pl-5 text-sm mb-2">
+          <li>Using reclaimed or recycled materials</li>
+          <li>Choosing local and sustainably sourced furniture</li>
+          <li>Designing for recyclability and modularity</li>
+        </ul>
+
+        <p className="text-sm">Join now and show your skills!</p>
+      </div>
+    ),
   },
-  {
-    id: 2,
-    title: "Turning Trash into Treasure: How Local Communities Are Benefiting from Recycling",
-    image: "/explore1.png",
-    date: "Nov 9, 2024",
-      details: "We’re excited to launch the upcoming tournament with new rewards and formats..."
 
-  },
   {
     id: 3,
     title: "The Role of Businesses in Sustainable Waste Management",
