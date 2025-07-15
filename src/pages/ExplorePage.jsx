@@ -24,36 +24,36 @@ const navigate = useNavigate();
   const toggleDropdown = () => setShowDropdown(!showDropdown);
 const images = [
   {
-     src: '/explore2.png', caption: 'Double Seaters',
+     src: '/clock.jpg', caption: 'Wallclock',
     link: "/details"
   },
-    { src: '/explore3.png', caption: 'Single Seaters',
+    { src: '/flex.jpg', caption: 'Single Seaters',
           link: "/details"
 
      },
-    { src: '/explore1.png', caption: 'Puff Stools',
+    { src: '/chairs.jpg', caption: 'Puff Stools',
           link: "/details"
 
      },
-    { src: '/explore2.png', caption: 'Multifunctional Eco-table',
+    { src: '/nude.jpg', caption: 'Multifunctional Eco-table',
                 link: "/details"
 
      },
-    { src: '/explore3.png', caption: 'MORI EndStools',
+    { src: '/pastoffice.jpg', caption: 'MORI EndStools',
 
      },
-    { src: '/explore.png', caption: 'NATUREPINT',
+    { src: '/pastoffice2.jpg', caption: 'NATUREPINT',
       
 
      },
-    { src: '/explore2.png', caption: 'NATUREPINT',
+    { src: '/pastoffice3.jpg', caption: 'NATUREPINT',
       
 
      },
-        { src: '/explore3.png', caption: 'NATUREPINT',
+        { src: '/pastpoffice4.jpg', caption: 'NATUREPINT',
 
          },
- { src: '/explore3.png', caption: 'NATUREPINT',
+ { src: '/sustain-bg.jpg', caption: 'NATUREPINT',
 
          },
 
@@ -108,7 +108,7 @@ function ShoppingCart({ isActive = true }) {
                         <div className="grid grid-cols-1 gap-4">
                           {/* Trainings */}
                           <Link to="/training" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                            <img src="/training.png" alt="Trainings" className="w-1/3 h-full object-cover" />
+                            <img src="/train.jpg" alt="Trainings" className="w-1/3 h-full object-cover" />
                             <div className="p-4 flex flex-col justify-center">
                               <h3 className="text-lg font-bold mb-1">Trainings</h3>
                               <p className="text-sm text-gray-600 text-justify">Learn sustainable furniture design and production from industry experts — hands-on and future-focused</p>
@@ -117,7 +117,7 @@ function ShoppingCart({ isActive = true }) {
           
                           {/* Trade */}
                           <Link to="/trade" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 mt-3 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                            <img src="/trading.png" alt="To the Trade" className="w-1/3 h-full object-cover" />
+                            <img src="/sustain-bg.jpg" alt="To the Trade" className="w-1/3 h-full object-cover" />
                             <div className="p-4 flex flex-col justify-center">
                               <h3 className="text-lg font-bold mb-1">To the trades</h3>
                               <p className="text-sm text-gray-600 text-justify">Tailored designs for your brand — collaborate with us to craft bespoke, sustainable furniture that reflects your style and vision.</p>
@@ -204,8 +204,9 @@ function ShoppingCart({ isActive = true }) {
           <div>
             <h4 className="font-semibold mb-2">CONTACT US</h4>
             <p>Got any questions, send us a message</p>
-            <p className="mt-4">07061714506</p>
-             <a href="mailto:royaltyrecyclinghub@gmail.com">
+ <p className="mt-4">+2348131961358</p>
+                        <p className="mt-4">+2348121091801</p>
+                                     <a href="mailto:royaltyrecyclinghub@gmail.com">
  <p>royaltyrecyclinghub@gmail.com</p></a>
             <div className="flex gap-4 mt-4">
                <a href="https://www.facebook.com/share/1HjT7HANDG/" target="_blank" rel="noopener noreferrer">

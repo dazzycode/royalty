@@ -213,7 +213,7 @@ const testimonials = [
       {/* Hero Section */}
       <section className="relative pt-20">
         <img
-          src="/homeimg.png"
+          src="/sustain-bg.jpg"
           alt="hero"
           className="w-full h-[150%] md:h-[90vh] object-cover"
         />
@@ -294,7 +294,7 @@ const testimonials = [
     </section>
 
           <img
-            src="/img1.png"
+            src="/flex.jpg"
             alt="Why Choose Us"
             className="mt-16 md:mt-0 w-full md:w-1/3 rounded shadow-md"
           />
@@ -314,7 +314,7 @@ const testimonials = [
   <div className="bg-white shadow-md rounded-lg overflow-hidden">
     <Link to="/home">
       <img
-        src="/home.png"
+        src="/flex.jpg"
         alt="Home"
         className="w-full h-100 object-cover hover:scale-105 transition-transform duration-300"
       />
@@ -325,7 +325,7 @@ const testimonials = [
   <div className="bg-white shadow-md rounded-lg overflow-hidden">
     <Link to="/office">
       <img
-        src="/office.png"
+        src="/chairs.jpg"
         alt="Office"
         className="w-full h-100 object-cover hover:scale-105 transition-transform duration-300"
       />
@@ -336,7 +336,7 @@ const testimonials = [
   <div className="bg-white shadow-md rounded-lg overflow-hidden">
     <Link to="/landscape">
       <img
-        src="/landscape.png"
+        src="/pastoffice12.jpg"
         alt="Landscape"
         className="w-full h-100 object-cover hover:scale-105 transition-transform duration-300"
       />
@@ -347,7 +347,7 @@ const testimonials = [
   <div className="bg-white shadow-md rounded-lg overflow-hidden">
     <Link to="/restaurant">
       <img
-        src="/restaurant.png"
+        src="/pastoffice3.jpg"
         alt="Restaurant"
         className="w-full h-100 object-cover hover:scale-105 transition-transform duration-300"
       />    </Link>
@@ -365,7 +365,7 @@ const testimonials = [
     {/* Left Column - Image */}
     <div className="w-full md:w-1/2">
       <img
-        src="/mission.png"
+        src="/man.jpg"
         alt="Home Style"
         className="w-full h-full object-cover rounded shadow-lg"
       />
@@ -542,8 +542,9 @@ const testimonials = [
         <div>
           <h4 className="font-semibold mb-2">CONTACT US</h4>
           <p>Got any questions, send us a message</p>
-          <p className="mt-4">07061714506</p>
-           <a href="mailto:royaltyrecyclinghub@gmail.com">
+<p className="mt-4">+2348131961358</p>
+                        <p className="mt-4">+2348121091801</p>
+                                   <a href="mailto:royaltyrecyclinghub@gmail.com">
  <p>royaltyrecyclinghub@gmail.com</p></a>
             {/* Social icons */}
   <div className="flex gap-4 mt-4">

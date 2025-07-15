@@ -69,7 +69,7 @@ function ShoppingCart({ isActive = true }) {
                    <div className="grid grid-cols-1 gap-4">
                      {/* Trainings */}
                      <Link to="/training" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                       <img src="/training.png" alt="Trainings" className="w-1/3 h-full object-cover" />
+                       <img src="/train,jpg" alt="Trainings" className="w-1/3 h-full object-cover" />
                        <div className="p-4 flex flex-col justify-center">
                          <h3 className="text-lg font-bold mb-1">Trainings</h3>
                          <p className="text-sm text-gray-600 text-justify">Learn sustainable furniture design and production from industry experts — hands-on and future-focused</p>
@@ -78,7 +78,7 @@ function ShoppingCart({ isActive = true }) {
      
                      {/* Trade */}
                      <Link to="/trade" onClick={() => setShowDropdown(false)} className="flex bg-gray-100 mt-3 rounded-xl overflow-hidden shadow cursor-pointer transition-transform hover:scale-105">
-                       <img src="/trading.png" alt="To the Trade" className="w-1/3 h-full object-cover" />
+                       <img src="/sustain-bg.png" alt="To the Trade" className="w-1/3 h-full object-cover" />
                        <div className="p-4 flex flex-col justify-center">
                          <h3 className="text-lg font-bold mb-1">To the trades</h3>
                          <p className="text-sm text-gray-600 text-justify">Tailored designs for your brand — collaborate with us to craft bespoke, sustainable furniture that reflects your style and vision.</p>
@@ -134,7 +134,7 @@ function ShoppingCart({ isActive = true }) {
       {/* Image Section */}
       <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-8">
         <img
-          src="/about.png"
+          src="/ceo.jpg"
           alt="Ruth Oladoja"
           className=""
         />
@@ -142,24 +142,13 @@ function ShoppingCart({ isActive = true }) {
       <div className="flex-1 mb-4">
         <h2 className="text-2xl font-semibold mb-4">MEET RUTH OLADOJA</h2>
         <p className="text-sm leading-relaxed text-justify text-gray-700 mb-4">
-          Waste management is a critical part of building a greener, healthier
-          planet—yet it's often overlooked. At Royalty Recycling Hub, a local
-          leader in sustainability, the mission is clear: empower communities
-          through eco-conscious initiatives and close the loop on waste.
+         Ruth Oladoja is the Founder and creative director of Royalty Recycling Hub 
+
         </p>
         <p className="text-sm leading-relaxed  text-justify text-gray-700 mb-4">
-          With a proven track record of launching high-impact recycling programs,
-          Royalty is not just talking about change—they’re making it happen.
+         At Royalty Recycling Hub we are redefining the furniture industry with eco-friendly designs, sustainable materials, and effective waste management practices. Our mission is to create a new standard of luxury furniture that prioritizes quality, aesthetics, and environmental responsibility. By upcycling, educating, and innovating, we're closing the loop on waste and building a cleaner future. Through our commitment to sustainability, we're proving that style and environmental responsibility can coexist, inspiring a new era of eco-conscious design and consumption. Join us in revolutionizing the furniture industry with sustainable luxury pieces that redefine style and comfort.
         </p>
-        <p className="text-sm leading-relaxed text-justify text-gray-700 mb-4">
-          From upcycling furniture to educating youth on sustainable practices,
-          the hub is redefining what community-based sustainability looks like.
-        </p>
-        <p className="text-sm leading-relaxed text-justify  text-gray-700">
-          Building a cleaner future requires everyone to play a role—from local
-          government to private recyclers to everyday citizens. Royalty
-          Recycling Hub is proving it's not only possible, it’s powerful.
-        </p>
+       
         <div className="flex gap-4 mt-4">
              <a href="https://www.facebook.com/share/1HjT7HANDG/" target="_blank" rel="noopener noreferrer">
                 <FaFacebook className="text-white bg-[#00363D] rounded-full p-2 w-8 h-8" />
@@ -194,7 +183,9 @@ function ShoppingCart({ isActive = true }) {
           <div>
             <h4 className="font-semibold mb-2">CONTACT US</h4>
             <p>Got any questions, send us a message</p>
-            <p className="mt-4">07061714506</p>
+            <p className="mt-4">+2348131961358</p>
+                        <p className="mt-4">+2348121091801</p>
+
           <a href="mailto:royaltyrecyclinghub@gmail.com">
  <p>royaltyrecyclinghub@gmail.com</p></a>
             <div className="flex gap-4 mt-4">
