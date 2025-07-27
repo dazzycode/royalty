@@ -120,7 +120,7 @@ function ShoppingCart({ isActive = true }) {
                  <Link to="/training" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Trainings</li></Link>
                  <Link to="/trade" onClick={closeMobileMenu}><li className="hover:text-[#013341]">To the trades</li></Link>
      
-                 <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Cart</li></Link>
+                 <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Collections</li></Link>
                </ul>
              </div>
            )}
@@ -129,14 +129,14 @@ function ShoppingCart({ isActive = true }) {
      
 
      {/* Hero Section */}
-         <div className=" items-center  mx-auto px-4 py-5 grid grid-cols-1 lg:grid-cols-2 gap-12 font-sans text-gray-800">
+         <div className=" items-center my-20 mx-auto px-4 py-5 grid grid-cols-1 lg:grid-cols-2 gap-12 font-sans text-gray-800">
 
       {/* Image Section */}
-      <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-8">
+      <div className="flex-shrink-0 mt-10 mb-4 md:mb-0 md:mr-8">
       <img
   src="/ceo.jpg"
   alt="Ruth Oladoja"
-  className="h-96 w-full rounded-md"
+  className="h-full w-full rounded-md"
 />
 
       </div>

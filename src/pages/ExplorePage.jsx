@@ -27,11 +27,11 @@ const images = [
      src: '/clock.jpg', caption: 'Wallclock',
     link: "/details"
   },
-    { src: '/flex.jpg', caption: 'Single Seaters',
+    { src: '/flex.jpg', caption: 'Wall Shelf',
           link: "/details"
 
      },
-    { src: '/chairs.jpg', caption: 'Puff Stools',
+    { src: '/chairs.jpg', caption: 'Eco-center Table',
           link: "/details"
 
      },
@@ -159,7 +159,7 @@ function ShoppingCart({ isActive = true }) {
                       <Link to="/training" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Trainings</li></Link>
                       <Link to="/trade" onClick={closeMobileMenu}><li className="hover:text-[#013341]">To the trades</li></Link>
           
-                      <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Cart</li></Link>
+                      <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Collections</li></Link>
                     </ul>
                   </div>
                 )}

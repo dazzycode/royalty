@@ -125,20 +125,20 @@ function ShoppingCart({ isActive = true }) {
                       <Link to="/training" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Trainings</li></Link>
                       <Link to="/trade" onClick={closeMobileMenu}><li className="hover:text-[#013341]">To the trades</li></Link>
           
-                      <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Cart</li></Link>
+                      <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Collections</li></Link>
                     </ul>
                   </div>
                 )}
               </nav>
          
       {/* Hero Section */}
-      <div className="relative pt-20">
-        <img src="/hub.jpg" alt="hero" className="w-full h-[50%] md:h-[50vh] object-cover" />
+      <div className="relative mt-10 pt-20">
+        <img src="/royalty.jpg" alt="hero" className="w-full h-[50%] md:h-[50vh] object-cover" />
       </div>
 <section className="py-20 px-6 md:px-20 bg-white">
   {/* Heading */}
   <div className="max-w-xl mb-20">
-    <h2 className="text-2xl text-[#013341]  font-semibold  uppercase">
+    <h2 className="text-xl md:text-2xl text-[#013341]  font-semibold  uppercase">
       Sustainable Elegance for Every Space
     </h2>
     <p className="mt-4 text-sm  text-justify text[#3F5A5A] leading-relaxed">Discover eco-friendly furniture that blends style, durability, and sustainability. From reclaimed wood to upcycled metals, every piece is crafted with care to elevate your home while protecting the planet. Shop consciously, live beautifully

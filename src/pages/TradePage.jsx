@@ -128,7 +128,7 @@ function ShoppingCart({ isActive = true }) {
                        <Link to="/training" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Trainings</li></Link>
                        <Link to="/trade" onClick={closeMobileMenu}><li className="hover:text-[#013341]">To the trades</li></Link>
            
-                       <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Cart</li></Link>
+                       <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Collections</li></Link>
                      </ul>
                    </div>
                  )}
@@ -136,21 +136,21 @@ function ShoppingCart({ isActive = true }) {
             
 
       {/* Hero Section */}
-      <section className="relative pt-20">
+      <section className="relative py-10 mt-20 ">
              <img
                src="/sustain-bg.jpg"
                alt="hero"
-               className="w-full h-[150%] md:h-[60vh] object-cover"
+               className="w-full h-[180%] md:h-[60vh] object-cover"
              />
-             <div className="absolute top-0 pt-40 left-0 w-full h-full flex flex-col justify-center items-left text-left text-white px-4">
+             <div className="absolute top-0 pt-10 left-0 w-full h-full flex flex-col justify-center items-left text-left text-white px-4">
                <h1 className="text-3xl md:text-5xl font-bold mb-4">Sustainable Designs,<br></br> Tailored to Your Brand.
                </h1>
                <p className="max-w-xl text-sm text-justify mb-6">
                    Bespoke eco-friendly furniture crafted to reflect your brand’s unique style and values. Whether you’re designing a café, office, or boutique space, our sustainable creations blend aesthetics, functionality, and environmental responsibility to make a lasting impact.            </p>
               <div className="flex justify-start">
-  <button className="bg-white text-black px-6 py-2 rounded-full hover:bg-[#013341]">
+  <a href="https://wa.me/2348121091801" target="_blank" rel="noreferrer" className="bg-white text-black px-6 py-2 rounded-full hover:bg-[#013341]">
     LET'S COLLABORATE
-  </button>
+  </a>
 </div>
 
              </div>
@@ -177,7 +177,7 @@ function ShoppingCart({ isActive = true }) {
     </div>
       {/* Right Column - Text */}
     <div className="w-full md:w-1/2 flex flex-col justify-center">
-      <h2 className="text-3xl md:text-4xl text-[#1E1E1E] font-bold mb-3 leading-snug">
+      <h2 className="text-2xl md:text-4xl text-[#1E1E1E] font-bold mb-3 leading-snug">
         Crafted for Businesses, <br></br>Built for Impact.
       </h2>
       <p className="text-sm text-[#1E1E1E] text-justify mt-4">
@@ -196,7 +196,7 @@ We partner with designers, business owners, and hospitality brands to create cus
   {/*  Image - Left */}
  <div className="w-full md:w-1/2">
       <img
-        src="/hub.jpg"
+        src="/royalty.jpg"
         alt="Home Style"
         className="w-full h-full object-cover rounded shadow-lg"
       />
@@ -214,7 +214,7 @@ We partner with designers, business owners, and hospitality brands to create cus
              <ShieldCheckIcon className="w-10 h-12 text-white  rounded-full p-1" />
  
       <div>
-        <h3 className="text-lg font-bold">CONSULTATION</h3>
+        <h3 className="text-xl md:text-2xl font-bold">CONSULTATION</h3>
         <p className="text-sm mt-1">Share your vision, space requirements, and style choices.</p>
       </div>
     </div>
@@ -224,7 +224,7 @@ We partner with designers, business owners, and hospitality brands to create cus
               <ShieldCheckIcon className="w-10 h-12 text-white  rounded-full p-1" />
 
       <div>
-        <h3 className="text-lg font-bold">CONCEPT DESIGN</h3>
+        <h3 className="text-xl md:text-2xl font-bold">CONCEPT DESIGN</h3>
         <p className="text-sm mt-1">Our team ideates, and provides unique designs for you.</p>
       </div>
     </div>
@@ -234,7 +234,7 @@ We partner with designers, business owners, and hospitality brands to create cus
       <ShieldCheckIcon className="w-10 h-12 text-white  rounded-full p-1" />
 
       <div>
-        <h3 className="text-lg font-bold">CRAFTING PROCESS</h3>
+        <h3 className="text-xl md:text-2xl font-bold">CRAFTING PROCESS</h3>
         <p className="text-sm mt-1">Handcrafting using sustainable materials, ensuring quality and durability.</p>
       </div>
     </div>
@@ -243,7 +243,7 @@ We partner with designers, business owners, and hospitality brands to create cus
       <ShieldCheckIcon className="w-10 h-12 text-white  rounded-full p-1" />
 
       <div>
-        <h3 className="text-lg font-bold">DELIVERY & SETUP</h3>
+        <h3 className="text-xl md:text-2xl font-bold">DELIVERY & SETUP</h3>
         <p className="text-sm mt-1">Finished pieces delivered, ready to transform your space.</p>
       </div>
     </div>

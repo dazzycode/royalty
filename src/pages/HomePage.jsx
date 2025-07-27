@@ -51,7 +51,7 @@ const faqs = [
   {
     question: "What materials do you use for your furniture?",
     answer:
-      "We use sustainably sourced wood, recycled metal, and eco-friendly fabrics for all our furniture.",
+      "We use neatly sourced upcycled materials such as consumer used tyres, reclaimed wood, PET bottles, foam scraps, and natural elements like rafia or jute rope. All materials are carefully selected and cleaned to ensure they are safe, durable, and perfect for creating high-quality eco-friendly furniture.",
   },
   {
     question: "Is your furniture durable?",
@@ -73,10 +73,10 @@ const faqs = [
     answer:
       "Yes, we offer both delivery and optional professional installation within select areas.",
   },
-  {
-    question: "Are reusable pads environmentally friendly?",
+   {
+    question: " Will eco-friendly furniture maintain a professional and modern look for our office?",
     answer:
-      "Yes, they are made from biodegradable materials and reduce landfill waste significantly.",
+      "Absolutely. Eco-friendly furniture is not just sustainable — it’s stylish, modern, and fully customizable to suit corporate aesthetics.",
   },
   {
     question: "Can I return or exchange an item?",
@@ -98,21 +98,21 @@ const [showModal, setShowModal] = useState(false);
   
 const testimonials = [
     {
-     name: "DELE ADERONKE",
+     name: "Kunle Adeshina",
       quote:
-        "I was blown away by the quality and craftsmanship of my new eco-friendly dining set, knowing it was made from recycled materials is just the cherry on top.",
+" It is  more than furniture  it is a movement. Every piece tells a story of transformation, and I am honored to be a part of that.",
       rating: 5,
     },
     {
-      name: "DELE ADERONKE",
+      name: "Sadiya Ovaino Idris",
       quote:
-        "I was blown away by the quality and craftsmanship of my new eco-friendly dining set, knowing it was made from recycled materials is just the cherry on top.",
+        "I love that I can enjoy beautiful furniture and still feel good about the environment. Knowing it's made from upcycled waste makes it even more special!",
       rating: 5,
     },
    {
-     name: "DELE ADERONKE",
+     name: "Mr. Kayode",
       quote:
-        "I was blown away by the quality and craftsmanship of my new eco-friendly dining set, knowing it was made from recycled materials is just the cherry on top.",
+        "As a parent, I value experiences that teach life skills and values. This workshop taught sustainability, creativity, and teamwork all in one.",
       rating: 5,
     }, 
   ];
@@ -202,7 +202,7 @@ const testimonials = [
             <Link to="/training" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Trainings</li></Link>
             <Link to="/trade" onClick={closeMobileMenu}><li className="hover:text-[#013341]">To the trades</li></Link>
 
-            <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Cart</li></Link>
+            <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Collections</li></Link>
           </ul>
         </div>
       )}
@@ -211,13 +211,13 @@ const testimonials = [
 
  
       {/* Hero Section */}
-      <section className="relative pt-20">
+      <section className="relative mt-20 ">
         <img
           src="/sustain-bg.jpg"
           alt="hero"
-          className="w-full h-[150%] md:h-[90vh] object-cover"
+          className="w-full h-[180%] md:h-[90vh] object-cover"
         />
-        <div className="absolute top-0 md:pt-40 left-0 w-full h-full flex flex-col justify-center items-center text-center text-white px-4">
+        <div className="absolute top-0  md:pt-40 left-0 w-full h-full flex flex-col justify-center items-center text-center text-white px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Sustainable Luxury, <br /> Crafted for You
           </h1>
@@ -250,14 +250,14 @@ const testimonials = [
         <div className="md:flex justify-center items-center gap-5">
             <section className="max-w-3xl  px-6">
 
-      <h2 className="text-4xl md:text-left font-bold text-[#000000] text-center mb-8">Why choose Us?</h2>
+      <h2 className="text-2xl md:text-4xl md:text-left font-bold text-[#000000] text-center mb-8">Why choose Us?</h2>
 
       <div className="space-y-6">
         {/* Item 1 */}
         <div className="flex items-start gap-4">
           <img src="/icon1.png" alt="Sustainably Sourced" className="w-10 h-10" />
           <div className='text-justify'> 
-            <h3 className="font-bold text-1xl text-[#013341]">SUSTAINABLY SOURCED MATERIALS</h3>
+            <h3 className="font-bold text-sm md:text-xl text-[#013341]">SUSTAINABLY SOURCED MATERIALS</h3>
             <p className="text-xs md:text-sm  text-justify text-[#666666]">
               Made from reclaimed wood, bamboo, and upcycled materials.
             </p>
@@ -268,7 +268,7 @@ const testimonials = [
         <div className="flex items-start gap-4">
           <img src="/icon2.png" alt="Premium Craftsmanship" className="w-10 h-10" />
           <div className='text-justify'> 
-            <h3 className="font-bold text-1xl text-[#013341] ">PREMIUM CRAFTSMANSHIP</h3>
+            <h3 className="font-bold text-sm md:text-xl  text-[#013341] ">PREMIUM CRAFTSMANSHIP</h3>
             <p className="text-xs text-justify md:text-sm text-[#666666] ">
               Designed for durability and comfort without compromising on aesthetics.
             </p>
@@ -279,7 +279,7 @@ const testimonials = [
         <div className="flex items-start gap-4">
           <img src="/icon3.png" alt="Affordable Luxury" className="w-10 h-10" />
           <div className='text-justify'> 
-            <h3 className="font-bold  text-1xl text-[#013341]">AFFORDABLE LUXURY</h3>
+            <h3 className="font-bold  text-sm md:text-xl text-[#013341]">AFFORDABLE LUXURY</h3>
             <p className="text-xs md:text-sm text-justify text-[#666666] ">
               High-end designs at prices that don't cost the Earth.
             </p>
@@ -306,7 +306,7 @@ const testimonials = [
         <h2 className="text-1xl md:text-2xl text-[#013341] font-bold mb-6 ">
          Our Service
         </h2>
-        <h2 className="text-2xl md:text-4xl text-[#013341]  font-Raleway font-bold mb-6 ">
+        <h2 className="text-xl md:text-4xl text-[#013341]  font-Raleway font-bold mb-6 ">
          Transform Your Space <br></br> With Our Signature Pieces
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-1">
@@ -347,7 +347,7 @@ const testimonials = [
   <div className="bg-white shadow-md rounded-lg overflow-hidden">
     <Link to="/restaurant">
       <img
-        src="/pastoffice2.jpg"
+        src="/new2.jpg"
         alt="Restaurant"
         className="w-full h-100 object-cover hover:scale-105 transition-transform duration-300"
       />    </Link>
@@ -374,7 +374,7 @@ const testimonials = [
     {/* Right Column - Text */}
     <div className="w-full md:w-1/2 flex flex-col justify-center">
       <h2 className="text-sm  md:text-1xl text-[#013341]  font-bold mb-3">OUR MISSION</h2>
-      <h2 className="text-2xl md:text-4xl text-[#013341] font-bold mb-3 leading-snug">
+      <h2 className="text-xl md:text-4xl text-[#013341] font-bold mb-3 leading-snug">
         Creating different home <br />
         furniture experiences with <br />
         sustainable products
@@ -395,9 +395,9 @@ const testimonials = [
   {/* Avatar Image - Left */}
   <div className="flex-shrink-0">
     <img
-      src="/jane.png"
+      src="/testimonial.jpg"
       alt="Testimonial Avatar"
-      className="w-48 h-48rounded-full"
+      className="w-48 h-48 rounded-full"
     />
   </div>
 
@@ -406,7 +406,7 @@ const testimonials = [
     <p className="text-3xl font-semibold leading-snug mb-2">
       “I never knew <br></br>sustainable furniture<br></br> could be this stunning!<br></br> My living space has<br></br> been transformed.”
     </p>
-    <p className="mt-1 text-sm">– JANE A</p>
+    <p className="mt-1 text-sm">– Tobi A.</p>
   </div>
 </div>
 <div className="flex flex-col md:flex-row justify-center items-center mt-12 gap-6 px-4">
@@ -420,12 +420,12 @@ const testimonials = [
   {/* Images */}
   <div className="flex flex-col md:flex-row">
     <img
-      src="/before.png"
+      src="/before.jpg"
       alt="Before"
       className="w-full md:w-64 h-60 object-cover rounded-t md:rounded-l md:rounded-tr-none shadow-lg"
     />
     <img
-      src="/after.png"
+      src="/after.jpg"
       alt="After"
       className="w-full md:w-64 h-60 object-cover rounded-b md:rounded-r md:rounded-bl-none shadow-lg"
     />
@@ -462,18 +462,18 @@ const testimonials = [
       >
         {testimonials.map((t, i) => (
           <SwiperSlide key={i}>
-            <div className="text-center py-8 px-4">
+            <div className="text-center mx-5 py-8 px-4">
               <p className="text-sm  md:text-xl max-w-4xl mx-auto text-[#373737]">“{t.quote}”</p>
-              <p className="text-2xl md:text-3xl font-bold mb-4 text-black mt-4">{t.name}</p>
+              <p className="text-xl md:text-3xl font-bold mb-4 text-black mt-4">{t.name}</p>
             </div>
           </SwiperSlide>
         ))}
 
         {/* Custom Arrows */}
-        <div className="swiper-button-prev flex items-center justify-center !w-12 !h-12 rounded-full bg-[#00363D] shadow-md cursor-pointer">
+        <div className="swiper-button-prev flex items-center justify-center !w-8 !h-8 rounded-full bg-[#00363D] shadow-md cursor-pointer">
           <FiChevronLeft className="text-white" style={{ fontSize: "8px" }}/>
         </div>
-        <div className="swiper-button-next flex items-center justify-center !w-12 !h-12 rounded-full bg-[#00363D] shadow-md cursor-pointer">
+        <div className="swiper-button-next flex items-center justify-center !w-8 !h-8 rounded-full bg-[#00363D] shadow-md cursor-pointer">
           <FiChevronRight className="text-white"style={{ fontSize: "8px" }} />
         </div>
       </Swiper>
@@ -481,7 +481,7 @@ const testimonials = [
 
       {/* Subscribe Section */} 
       <div className="bg-black w-full mt-12 py-10 px-4 text-white text-center">
-        <h3 className="text-2xl md:text-3xl  font-semibold mb-2">STAY INSPIRED. LIVE SUSTAINABLY</h3>
+        <h3 className="text-xl md:text-3xl  font-semibold mb-2">STAY INSPIRED. LIVE SUSTAINABLY</h3>
         <p className="text-1xl  md:text-2xl text-[#7B7B7B] mb-4">Get exclusive deals, sustainability tips,<br></br> and early access to new collections. </p>
         <form className="flex flex-col gap-4 max-w-md mx-auto w-full">
   <input
@@ -497,7 +497,7 @@ const testimonials = [
 </form>
  </div>
     <div className="bg-gray-100 py-16 px-4">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-[#00363D] mb-10">
+      <h2 className="text-2xl md:text-4xl font-bold text-center text-[#00363D] mb-10">
         Frequently asked <br /> Questions
       </h2>
       <div className="max-w-3xl mx-auto space-y-4">
@@ -507,7 +507,7 @@ const testimonials = [
               onClick={() => toggle(index)}
               className="flex justify-between items-center w-full"
             >
-              <span className="text-left text-1xl  md:text-2xl text-black font-semibold">{faq.question}</span>
+              <span className="text-left text-1xl mx-5  md:text-2xl text-black font-semibold">{faq.question}</span>
              <div
   className={`flex items-center justify-center !w-10 !h-10 rounded-full bg-[#00000033]  shadow-md transition-transform duration-300 ${
     openIndex === index ? "rotate-180" : ""

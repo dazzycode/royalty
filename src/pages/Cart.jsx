@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FiPlus, FiMinus, FiChevronDown, FiChevronUp, FiMenu, FiX  } from "react-icons/fi";
+import { FiChevronDown, FiChevronUp, FiMenu, FiX  } from "react-icons/fi";
 import { FaLinkedin, FaPinterest, FaShoppingCart, FaSnapchat } from "react-icons/fa";
 import { useNavigate, Link } from 'react-router-dom';
 import {
@@ -11,23 +11,24 @@ import ServiceModal from './Modal';
 const initialCart = [
   {
     id: 1,
-    title: "Wallclock",
-    price: 20000,
+    title: " Eco Wall clock",
+    price: 35000,
     image: "/clock.jpg",
     quantity: 1,
   },
   {
     id: 2,
-    title: "EcoLuxe Sofa",
-    price: 75000,
+    title: "Eco Centre Table",
+    price: 212000
+,
     image: "/nude.jpg",
     quantity: 1,
   },
   {
     id: 3,
-    title: "EcoLuxe Sofa",
-    price: 60000,
-    image: "/chairs.jpg",
+    title: " Eco Puff Chair",
+    price:  80000,
+    image: "/collections.jpg",
     quantity: 1,
   },
 ];
@@ -44,27 +45,7 @@ const Cart = () => {
   const formatCurrency = (value) =>
     `₦${value.toLocaleString("en-NG", { minimumFractionDigits: 0 })}`;
 
-  const handleQuantityChange = (id, delta) => {
-    setCart((prev) =>
-      prev.map((item) =>
-        item.id === id
-          ? {
-              ...item,
-              quantity: Math.max(1, item.quantity + delta),
-            }
-          : item
-      )
-    );
-  };
-
-  const handleRemove = (id) => {
-    setCart((prev) => prev.filter((item) => item.id !== id));
-  };
-
-  const subtotal = cart.reduce(
-    (sum, item) => sum + item.price * item.quantity,
-    0
-  );
+ 
 const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -160,7 +141,7 @@ function ShoppingCart({ isActive = true }) {
                      <Link to="/training" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Trainings</li></Link>
                      <Link to="/trade" onClick={closeMobileMenu}><li className="hover:text-[#013341]">To the trades</li></Link>
          
-                     <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Cart</li></Link>
+                     <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Collections</li></Link>
                    </ul>
                  </div>
                )}
@@ -174,7 +155,7 @@ function ShoppingCart({ isActive = true }) {
         >
           ← Go Back
         </button>
-        <h2 className="text-2xl font-semibold mb-6">My Cart</h2>
+        <h2 className="text-2xl font-semibold mb-6"> Collections</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Cart Items */}
@@ -188,28 +169,13 @@ function ShoppingCart({ isActive = true }) {
                 />
                 <div className="flex-1">
                   <h3 className="font-medium">{item.title}</h3>
-                  <p className="text-sm my-1">{formatCurrency(item.price)}</p>
-                  <div className="flex items-center gap-3 my-2">
-                    <button
-                      onClick={() => handleQuantityChange(item.id, -1)}
-                      className="p-1 border rounded-full"
-                    >
-                      <FiMinus size={14} />
-                    </button>
-                    <span>{item.quantity}</span>
-                    <button
-                      onClick={() => handleQuantityChange(item.id, 1)}
-                      className="p-1 border rounded-full"
-                    >
-                      <FiPlus size={14} />
-                    </button>
-                  </div>
-                  <button
-                    onClick={() => handleRemove(item.id)}
-                    className="mt-2 px-4 py-1 bg-[#B8AA90] text-black rounded"
+                  <p className="text-sm mb-4 my-1">{formatCurrency(item.price)}</p>
+                
+                   <a href="https://wa.me/2348121091801" target="_blank" rel="noreferrer"
+                    className="mt-4 px-4 py-1 bg-[#B8AA90] text-black hover:bg-[#004E5B] rounded"
                   >
-                    Remove
-                  </button>
+                    Shop
+                  </a>
                 </div>
               </div>
             ))}
@@ -217,18 +183,31 @@ function ShoppingCart({ isActive = true }) {
 
           {/* Order Summary */}
           <div className="border p-6 rounded-md">
-            <h4 className="text-lg font-semibold mb-4">Summary</h4>
+            <h4 className="text-lg font-semibold mb-4">New In</h4>
             <div className="flex justify-between mb-2 text-sm">
-              <span>Subtotal ({cart.length} items)</span>
-              <span>{formatCurrency(subtotal)}</span>
+              <span>Get updates on latest collections</span>
             </div>
-            <div className="flex justify-between font-semibold text-base mb-6">
-              <span>Order Total</span>
-              <span>{formatCurrency(subtotal)}</span>
-            </div>
-            <button className="w-full py-3 bg-black text-white font-semibold hover:bg-gray-800">
-              Checkout
+            <form
+            className="flex flex-col space-y-4"
+            onSubmit={(e) => {
+              e.preventDefault();
+              alert('Subscribed!');
+            }}
+          >
+            <input
+              type="email"
+              placeholder="Your email address"
+              className="px-3 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-white text-black"
+              required
+            />
+            <button
+              type="submit"
+              className="bg-black text-white font-semibold py-2 px-4 hover:bg-gray-600 transition"
+            >
+              Subscribe
             </button>
+          </form>
+          
           </div>
         </div>
       </div>

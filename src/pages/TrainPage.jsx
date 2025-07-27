@@ -129,7 +129,7 @@ function ShoppingCart({ isActive = true }) {
                      <Link to="/training" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Trainings</li></Link>
                      <Link to="/trade" onClick={closeMobileMenu}><li className="hover:text-[#013341]">To the trades</li></Link>
          
-                     <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Cart</li></Link>
+                     <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Collections</li></Link>
                    </ul>
                  </div>
                )}
@@ -138,7 +138,7 @@ function ShoppingCart({ isActive = true }) {
     
 
       {/* Hero Section */}
-      <div className="relative pt-20">
+      <div className="relative my-10 pt-20">
         <img src="/train.jpg" alt="hero" className="w-full h-[70vh] object-cover" />
       </div>
 
@@ -146,7 +146,7 @@ function ShoppingCart({ isActive = true }) {
       <div className="flex pt-20 flex-col md:flex-row font-sans items-start justify-center min-h-screen bg-gray-100 p-6 gap-8">
         {/* Form Section */}
         <div className="w-full md:w-1/2">
-          <h1 className="text-2xl md:text-3xl font-bold mb-4 text-gray-800">
+          <h1 className="text-xl md:text-3xl font-bold mb-4 text-gray-800">
             Empower Yourself — Master<br></br> the Art of
             Sustainable <br></br>Craftsmanship with
             Royalty <br></br>Recycling Hub!
@@ -236,7 +236,7 @@ function ShoppingCart({ isActive = true }) {
 
         {/* Newsletter */}
         <div className="w-full md:w-1/3 bg-[#013341] text-white p-6 shadow-lg py-10 rounded-[3rem]">
-          <h2 className="text-4xl font-semibold mb-4">Subscribe to our Newsletter</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4">Subscribe to our Newsletter</h2>
           <p className="mb-4 text-justify">
             Be the First to Hear from Royalty Recycling Hub!<br />
             Get exclusive updates on our latest programs,<br />

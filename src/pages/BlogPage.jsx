@@ -31,7 +31,7 @@ const blogPosts = [
   {
     id: 1,
     title: "Designing for a Greener Future: The Role of Interior Designers in Sustainable Furniture Design",
-    image: "/explore1.png",
+    image: "/royalty.jpg",
     date: "Nov 6, 2024",
 details: (
       <div>
@@ -75,7 +75,7 @@ details: (
   {
     id: 2,
     title: "The Role of Businesses in Sustainable Waste Management",
-    image: "/explore1.png",
+    image: "/royalty.jpg",
     date: "Nov 7, 2024",
 details: (
   <div>
@@ -130,7 +130,7 @@ Ready to learn more about our sustainable design process or commission a custom 
    {
     id: 3,
     title: "Transforming Trash into Treasure: Royalty Recycling Hub Launches Innovative Upcycled PET Bottle Stools",
-    image: "/hub.jpg",
+    image: "/royalty.jpg",
     date: "Nov 8, 2024",
 details: (
   <div>
@@ -288,7 +288,7 @@ function ShoppingCart({ isActive = true }) {
                       <Link to="/training" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Trainings</li></Link>
                       <Link to="/trade" onClick={closeMobileMenu}><li className="hover:text-[#013341]">To the trades</li></Link>
           
-                      <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Cart</li></Link>
+                      <Link to="/cart" onClick={closeMobileMenu}><li className="hover:text-[#013341]">Collections</li></Link>
                     </ul>
                   </div>
                 )}
