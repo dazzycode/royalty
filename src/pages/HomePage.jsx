@@ -215,7 +215,7 @@ const testimonials = [
         <img
           src="/sustain-bg.jpg"
           alt="hero"
-          className="w-full h-[180%] md:h-[90vh] object-cover"
+          className="w-full h-[210%] md:h-[90vh] object-cover"
         />
         <div className="absolute top-0  md:pt-40 left-0 w-full h-full flex flex-col justify-center items-center text-center text-white px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -259,7 +259,7 @@ const testimonials = [
           <div className='text-justify'> 
             <h3 className="font-bold text-sm md:text-xl text-[#013341]">SUSTAINABLY SOURCED MATERIALS</h3>
             <p className="text-xs md:text-sm  text-justify text-[#666666]">
-              Made from reclaimed wood, bamboo, and upcycled materials.
+              Made from reclaimed wood, and upcycled materials.
             </p>
           </div>
         </div>

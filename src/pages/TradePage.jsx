@@ -262,7 +262,7 @@ We partner with designers, business owners, and hospitality brands to create cus
   {/* Image Grid - Custom Layout */}
   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
     <div className="col-span-1 md:col-span-1 row-span-1">
-      <img src="/train1.jpg" alt="Project 1" className="w-full h-full object-cover rounded" />
+      <img src="/new.png" alt="Project 1" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-2 row-span-2">
       <img src="/clock.jpg" alt="Project 2" className="w-full h-full object-cover rounded" />
@@ -297,10 +297,11 @@ We partner with designers, business owners, and hospitality brands to create cus
     </p>
 
 <div className="flex justify-start">
-  <button className="bg-white text-black px-6 py-2 rounded-full hover:bg-[#013341] flex items-center gap-2">
+          <a href="https://wa.me/2348121091801" target="_blank" rel="noreferrer"
+   className="bg-white text-black px-6 py-2 rounded-full hover:bg-[#013341] flex items-center gap-2">
     <FaWhatsapp className="text-green-500 text-lg" />
     Get Started Today
-  </button>
+  </a>
 </div>
 
 

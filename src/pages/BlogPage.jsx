@@ -103,7 +103,6 @@ Benefits of Reclaimed Materials
          By choosing reclaimed materials, we are not only reducing waste but also: </p>
          <ul>
           <li  className="text-sm text-justify leading-relaxed text-black"> Preserving nature </li>
-                             <li className="text-sm text-justify leading-relaxed text-black"> Preserving nature </li>
  <li className="text-sm text-justify leading-relaxed text-black" > Creating unique, one-of-a-kind pieces </li>
                       </ul>
                       <h3 className="text-xl text-black font-semibold mb-2">
