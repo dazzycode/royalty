@@ -215,9 +215,9 @@ const testimonials = [
         <img
           src="/sustain-bg.jpg"
           alt="hero"
-          className="w-full h-[210%] md:h-[90vh] object-cover"
+          className="w-full h-[120vh] md:h-[90vh] object-cover"
         />
-        <div className="absolute top-0  md:pt-40 left-0 w-full h-full flex flex-col justify-center items-center text-center text-white px-4">
+        <div className="absolute top-0  left-0 w-full h-full flex flex-col justify-center items-center text-center text-white px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Sustainable Luxury, <br /> Crafted for You
           </h1>
