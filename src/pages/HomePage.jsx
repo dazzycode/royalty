@@ -294,7 +294,7 @@ const testimonials = [
     </section>
 
           <img
-            src="/flex.jpg"
+            src="/royal.jpg"
             alt="Why Choose Us"
             className="mt-16 md:mt-0 w-full md:w-1/3 rounded shadow-md"
           />

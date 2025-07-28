@@ -140,7 +140,7 @@ function ShoppingCart({ isActive = true }) {
              <img
                src="/sustain-bg.jpg"
                alt="hero"
-               className="w-full h-[180%] md:h-[60vh] object-cover"
+               className="w-full h-[100vh] md:h-[60vh] object-cover"
              />
              <div className="absolute top-0 pt-10 left-0 w-full h-full flex flex-col justify-center items-left text-left text-white px-4">
                <h1 className="text-3xl md:text-5xl font-bold mb-4">Sustainable Designs,<br></br> Tailored to Your Brand.
@@ -262,13 +262,13 @@ We partner with designers, business owners, and hospitality brands to create cus
   {/* Image Grid - Custom Layout */}
   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
     <div className="col-span-1 md:col-span-1 row-span-1">
-      <img src="/new.png" alt="Project 1" className="w-full h-full object-cover rounded" />
+      <img src="/royal2.jpg" alt="Project 1" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-2 row-span-2">
       <img src="/clock.jpg" alt="Project 2" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-1 row-span-1">
-      <img src="/pastoffice3.jpg" alt="Project 3" className="w-full h-full object-cover rounded" />
+      <img src="/new.png" alt="Project 3" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-1 row-span-1">
       <img src="/nude.jpg" alt="Project 4" className="w-full h-full object-cover rounded" />
