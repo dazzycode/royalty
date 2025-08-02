@@ -25,37 +25,55 @@ const navigate = useNavigate();
 const images = [
   {
      src: '/clock.jpg', caption: 'Wallclock',
-    link: "/details"
   },
     { src: '/flex.jpg', caption: 'Wall Shelf',
-          link: "/details"
 
      },
-    { src: '/chairs.jpg', caption: 'Eco-center Table',
-          link: "/details"
+    { src: '/collections.jpg', caption: 'Eco-center Table & MORI-Puff stools',
 
      },
-    { src: '/nude.jpg', caption: 'Multifunctional Eco-table',
-                link: "/details"
+    { src: '/nude.jpg', caption: ' Eco-center Table',
 
      },
-    { src: '/man.jpg', caption: 'MORI EndStools',
+    { src: '/man.jpg', caption: 'MORI-Puff Stools',
 
      },
-    { src: '/pastoffice2.jpg', caption: 'NATUREPINT',
+    { src: '/royal.jpg', caption: 'Eco-center Table',
       
 
      },
-    { src: '/chairs.jpg', caption: 'NATUREPINT',
+    { src: '/chairs.jpg', caption:  'Eco-center Table',
       
 
      },
-        { src: '/pastoffice.jpg', caption: 'NATUREPINT',
+        { src: '/new2.jpg', caption:  'Eco-center Table',
 
          },
- { src: '/sustain-bg.jpg', caption: 'NATUREPINT',
+
+  { src: '/trade5.jpg', caption: 'Eco-center Table',
+
+     },
+    { src: '/trade6.jpg', caption: 'MORI-Puff Stools',
+
+     },
+    { src: '/trade1.jpg', caption: 'MORI-Puff Stools',
+
+     },
+    { src: '/trade2.jpg', caption: 'Eco-center Table',
+
+     },
+    { src: '/trade3.jpg', caption: 'MORI-Puff Stools',
+      
+
+     },
+    { src: '/trade4.jpg', caption:  'MORI-Puff Stools',
+      
+
+     },
+        { src: '/trade5.jpg', caption:  'Eco-center Table',
 
          },
+        
 
   ];
 const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -168,9 +186,19 @@ function ShoppingCart({ isActive = true }) {
       <h2 className="text-2xl font-semibold mb-6">My Cart</h2>
      {/* Hero Section */}
 <div className="relative ">
-  <img src="/explore.png" alt="hero" className="w-full h-[50vh] object-cover" />
+         <img
+           src="/sustain-bg.jpg"
+           alt="hero"
+           className="w-full h-[100vh] md:h-[70vh] object-cover"
+         />
+         <div className="absolute top-0  left-0 w-full h-full flex flex-col justify-center items-center text-center text-white px-4">
+           <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Explore our collections <br /> Crafted for You!!
+           </h1>
+         
+        
+         </div>
 </div>
-
 {/* Image Grid */}
 <div className="grid grid-cols-1 md:grid-cols-3 py-20 gap-6 p-6">
   {images.map((img, index) => (
@@ -198,7 +226,7 @@ function ShoppingCart({ isActive = true }) {
  
       {/* Footer */}
       <footer className="bg-black mx-auto text-white py-10 px-4">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
           <div>
             <img src="/footerlogo.png" alt="Logo" className="h-36 mb-4" />
           </div>
@@ -206,7 +234,7 @@ function ShoppingCart({ isActive = true }) {
             <h4 className="font-semibold mb-2">CONTACT US</h4>
             <p>Got any questions, send us a message</p>
  <p className="mt-4">+2348131961358</p>
-                        <p className="mt-4">+2348121091801</p>
+                        <p className="mt-2">+2348121091801</p>
                                      <a href="mailto:royaltyrecyclinghub@gmail.com">
  <p>royaltyrecyclinghub@gmail.com</p></a>
             <div className="flex gap-4 mt-4">

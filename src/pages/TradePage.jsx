@@ -268,15 +268,45 @@ We partner with designers, business owners, and hospitality brands to create cus
       <img src="/clock.jpg" alt="Project 2" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-1 row-span-1">
-      <img src="/new.png" alt="Project 3" className="w-full h-full object-cover rounded" />
+      <img src="/pastoffice2.jpg" alt="Project 3" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-1 row-span-1">
       <img src="/nude.jpg" alt="Project 4" className="w-full h-full object-cover rounded" />
     </div>
     <div className="col-span-1 md:col-span-1 row-span-1">
-      <img src="/flex.jpg" alt="Project 5" className="w-full h-full object-cover rounded" />
+      <img src="/trade1.jpg" alt="Project 5" className="w-full h-full object-cover rounded" />
     </div>
-    
+      <div className="col-span-1 md:col-span-2 row-span-2">
+      <img src="/trade2.jpg" alt="Project 6" className="w-full h-full object-cover rounded" />
+    </div>
+    <div className="col-span-1 md:col-span-1 row-span-1">
+      <img src="/royal.jpg" alt="Project 7" className="w-full h-full object-cover rounded" />
+    </div>
+    <div className="col-span-1 md:col-span-1 row-span-1">
+      <img src="/sustain-bg.jpg" alt="Project 8" className="w-full h-full object-cover rounded" />
+    </div>
+    <div className="col-span-1 md:col-span-1 row-span-1">
+      <img src="/collections.jpg" alt="Project 9" className="w-full h-full object-cover rounded" />
+    </div>
+    <div className="col-span-1 md:col-span-1 row-span-1">
+      <img src="/flex.jpg" alt="Project 10" className="w-full h-full object-cover rounded" />
+    </div> 
+     <div className="col-span-1 md:col-span-1 row-span-1">
+      <img src="/trade3.jpg" alt="Project 5" className="w-full h-full object-cover rounded" />
+    </div>
+      <div className="col-span-1 md:col-span-2 row-span-2">
+      <img src="/trade4.jpg" alt="Project 6" className="w-full h-full object-cover rounded" />
+    </div>
+    <div className="col-span-1 md:col-span-1 row-span-1">
+      <img src="/trade5.jpg" alt="Project 7" className="w-full h-full object-cover rounded" />
+    </div>
+    <div className="col-span-1 md:col-span-1 row-span-1">
+      <img src="/trade6.jpg" alt="Project 8" className="w-full h-full object-cover rounded" />
+    </div>
+    <div className="col-span-1 md:col-span-1 row-span-1">
+      <img src="/trade7.jpg" alt="Project 9" className="w-full h-full object-cover rounded" />
+    </div>
+   
   </div>
 </section>
 
@@ -312,7 +342,7 @@ We partner with designers, business owners, and hospitality brands to create cus
 
       {/* Footer */}
       <footer className="bg-black items-center  text-white py-10 px-4">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
           <div>
             <img src="/footerlogo.png" alt="Logo" className="h-36 mb-4" />
           </div>
@@ -320,7 +350,7 @@ We partner with designers, business owners, and hospitality brands to create cus
             <h4 className="font-semibold mb-2">CONTACT US</h4>
             <p>Got any questions, send us a message</p>
  <p className="mt-4">+2348131961358</p>
-                        <p className="mt-4">+2348121091801</p> <a href="mailto:royaltyrecyclinghub@gmail.com">
+                        <p className="mt-2">+2348121091801</p> <a href="mailto:royaltyrecyclinghub@gmail.com">
  <p>royaltyrecyclinghub@gmail.com</p></a>
             <div className="flex gap-4 mt-4">
               <a href="https://www.facebook.com/share/1HjT7HANDG/" target="_blank" rel="noopener noreferrer">

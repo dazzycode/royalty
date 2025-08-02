@@ -532,7 +532,7 @@ const testimonials = [
       </div>
     </div>
     <footer className="bg-black mx-auto text-white py-10 px-4">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
         {/* Logo */}
         <div>
           <img src="/footerlogo.png" alt="Logo" className="h-36 mb-4" />
@@ -543,7 +543,7 @@ const testimonials = [
           <h4 className="font-semibold mb-2">CONTACT US</h4>
           <p>Got any questions, send us a message</p>
 <p className="mt-4">+2348131961358</p>
-                        <p className="mt-4">+2348121091801</p>
+                        <p className="mt-2">+2348121091801</p>
                                    <a href="mailto:royaltyrecyclinghub@gmail.com">
  <p>royaltyrecyclinghub@gmail.com</p></a>
             {/* Social icons */}

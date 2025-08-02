@@ -132,8 +132,8 @@ function ShoppingCart({ isActive = true }) {
               </nav>
          
       {/* Hero Section */}
-      <div className="relative mt-10 pt-20">
-        <img src="/royalty.jpg" alt="hero" className="w-full h-[50%] md:h-[50vh] object-cover" />
+      <div className="relative pt-10 mt-20">
+        <img src="/royalty.jpg" alt="hero" className="w-full h-[50%] md:h-full object-cover" />
       </div>
 <section className="py-20 px-6 md:px-20 bg-white">
   {/* Heading */}
@@ -151,14 +151,14 @@ function ShoppingCart({ isActive = true }) {
   {/* Card 1 - Home */}
   <div className="flex flex-col md:flex-row items-center gap-6 pb-10 md:pb-20">
     <img
-      src="/clock.jpg"
+      src="/sustain-bg.jpg"
       alt="Home Space"
-      className="w-full md:w-[50%] h-full object-cover rounded-lg shadow transition-transform duration-500 hover:scale-105"
+      className="w-full md:w-[70%] h-full object-cover rounded-lg shadow transition-transform duration-500 hover:scale-105"
     />
     <div className="text-right mx-2 md:mx-5 md:text-left">
       <h3 className="text-xl font-bold text-[#013341]">HOME</h3>
       <Link to="/explore">
-        <p className="text-lg mt-2 transition-transform hover:tracking-[0.3em] duration-500 hover:scale-105 text-[#013341] cursor-pointer">
+        <p className="text-sm mt-2 transition-transform hover:tracking-[0.3em] duration-500 hover:scale-105 text-[#013341] cursor-pointer">
           EXPLORE ALL
         </p>
       </Link>
@@ -168,14 +168,14 @@ function ShoppingCart({ isActive = true }) {
   {/* Card 2 - Office */}
   <div className="flex flex-col md:flex-row-reverse items-center gap-6 pt-10 md:pt-40">
     <img
-      src="/chairs.jpg"
+      src="/royal2.jpg"
       alt="Office Space"
-      className="w-full md:w-[50%] h-full object-cover rounded-lg shadow transition-transform duration-500 hover:scale-105"
+      className="w-full md:w-[70%] h-full object-cover rounded-lg shadow transition-transform duration-500 hover:scale-105"
     />
     <div className="text-left mx-2 md:mx-5 md:text-right">
       <h3 className="text-xl font-bold text-[#013341]">OFFICE</h3>
-      <Link to="/explore">
-        <p className="text-lg mt-2 transition-transform hover:tracking-[0.3em] duration-500 hover:scale-105 text-[#013341] cursor-pointer">
+      <Link to="/build">
+        <p className="text-sm mt-2 transition-transform hover:tracking-[0.3em] duration-500 hover:scale-105 text-[#013341] cursor-pointer">
           EXPLORE ALL
         </p>
       </Link>
@@ -185,14 +185,14 @@ function ShoppingCart({ isActive = true }) {
   {/* Card 3 - Home */}
   <div className="flex flex-col md:flex-row items-center gap-6 pb-10 md:pb-20">
     <img
-      src="/sustain-bg.jpg"
+      src="/new2.jpg"
       alt="Home Space"
       className="w-full md:w-[50%] h-full object-cover rounded-lg shadow transition-transform duration-500 hover:scale-105"
     />
     <div className="text-right mx-2 md:mx-5 md:text-left">
-      <h3 className="text-xl font-bold text-[#013341]">HOME</h3>
-      <Link to="/explore">
-        <p className="text-lg mt-2 transition-transform hover:tracking-[0.3em] duration-500 hover:scale-105 text-[#013341] cursor-pointer">
+      <h3 className="text-xl font-bold text-[#013341]">RESTAURANT</h3>
+      <Link to="/build">
+        <p className="text-sm mt-2 transition-transform hover:tracking-[0.3em] duration-500 hover:scale-105 text-[#013341] cursor-pointer">
           EXPLORE ALL
         </p>
       </Link>
@@ -202,14 +202,14 @@ function ShoppingCart({ isActive = true }) {
   {/* Card 4 - Office */}
   <div className="flex flex-col md:flex-row-reverse items-center gap-6 pt-10 md:pt-40">
     <img
-      src="/flex.jpg"
+      src="/chairs.jpg"
       alt="Office Space"
       className="w-full md:w-[50%] h-full object-cover rounded-lg shadow transition-transform duration-500 hover:scale-105"
     />
     <div className="text-left mx-2 md:mx-5 md:text-right">
-      <h3 className="text-xl font-bold text-[#013341]">OFFICE</h3>
-      <Link to="/explore">
-        <p className="text-lg mt-2 transition-transform hover:tracking-[0.3em] duration-500 hover:scale-105 text-[#013341] cursor-pointer">
+      <h3 className="text-xl font-bold text-[#013341]">LANDSCAPE</h3>
+      <Link to="/build">
+        <p className="text-sm mt-2 transition-transform hover:tracking-[0.3em] duration-500 hover:scale-105 text-[#013341] cursor-pointer">
           EXPLORE ALL
         </p>
       </Link>
@@ -221,7 +221,7 @@ function ShoppingCart({ isActive = true }) {
  
       {/* Footer */}
       <footer className="bg-black mx-auto text-white py-10 px-4">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
           <div>
             <img src="/footerlogo.png" alt="Logo" className="h-36 mb-4" />
           </div>
@@ -229,7 +229,7 @@ function ShoppingCart({ isActive = true }) {
             <h4 className="font-semibold mb-2">CONTACT US</h4>
             <p>Got any questions, send us a message</p>
  <p className="mt-4">+2348131961358</p>
-                        <p className="mt-4">+2348121091801</p> <a href="mailto:royaltyrecyclinghub@gmail.com">
+                        <p className="mt-2">+2348121091801</p> <a href="mailto:royaltyrecyclinghub@gmail.com">
  <p>royaltyrecyclinghub@gmail.com</p></a>
             <div className="flex gap-4 mt-4">
                <a href="https://www.facebook.com/share/1HjT7HANDG/" target="_blank" rel="noopener noreferrer">

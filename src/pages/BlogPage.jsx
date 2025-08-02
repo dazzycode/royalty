@@ -325,7 +325,7 @@ function ShoppingCart({ isActive = true }) {
       </div>
 
       {/* Sidebar */}
-      <div className="lg:col-span-1">
+      <div className="lg:col-span-1 md:py-20">
         <h3 className="text-lg font-semibold mb-4">Other stories</h3>
 
 <div className="space-y-6">
@@ -372,7 +372,7 @@ function ShoppingCart({ isActive = true }) {
  
       {/* Footer */}
       <footer className="bg-black mx-auto text-white py-10 px-4">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
           <div>
             <img src="/footerlogo.png" alt="Logo" className="h-36 mb-4" />
           </div>
@@ -380,7 +380,7 @@ function ShoppingCart({ isActive = true }) {
             <h4 className="font-semibold mb-2">CONTACT US</h4>
             <p>Got any questions, send us a message</p>
   <p className="mt-4">+2348131961358</p>
-                        <p className="mt-4">+2348121091801</p> <a href="mailto:royaltyrecyclinghub@gmail.com">
+                        <p className="mt-2">+2348121091801</p> <a href="mailto:royaltyrecyclinghub@gmail.com">
  <p>royaltyrecyclinghub@gmail.com</p></a>
             <div className="flex gap-4 mt-4">
               <a href="https://www.facebook.com/share/1HjT7HANDG/" target="_blank" rel="noopener noreferrer">

@@ -223,7 +223,7 @@ function ShoppingCart({ isActive = true }) {
       <h4 className="font-semibold mb-2">CONTACT US</h4>
       <p>Got any questions, send us a message</p>
   <p className="mt-4">+2348131961358</p>
-                        <p className="mt-4">+2348121091801</p>
+                        <p className="mt-2">+2348121091801</p>
                                <a href="mailto:royaltyrecyclinghub@gmail.com">
  <p>royaltyrecyclinghub@gmail.com</p></a>
       {/* Social icons */}
