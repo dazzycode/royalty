@@ -62,7 +62,7 @@ function ShoppingCart({ isActive = true }) {
   );
 }
   return (
-    <div className="mx-2 font-sans text-black">
+    <div className="font-sans text-black w-full overflow-x-hidden scroll-smooth">
       {/* Navbar */}
      <nav className="flex justify-between items-center px-6 py-6 shadow-md bg-white fixed w-full top-0 z-50">
                 <Link to="/">

@@ -13,6 +13,7 @@ const PopupModal = ({ show, onClose }) => {
     flex justify-center items-start 
     z-50 
     p-4 my-20
+    overflow-x-hidden
   "
 >
   <div

@@ -118,7 +118,7 @@ const testimonials = [
   ];
   
   return (
-    <div className="font-sans text-gray-800">
+    <div className="font-sans text-black w-full overflow-x-hidden scroll-smooth">
       {/* Navbar */}
       <div>
 

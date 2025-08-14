@@ -96,7 +96,7 @@ function ShoppingCart({ isActive = true }) {
   );
 }
   return (
-    <div className="font-sans">
+    <div className="font-sans text-black w-full overflow-x-hidden scroll-smooth">
       {/* Navigation */}
        
            
